@@ -32,12 +32,10 @@ Work experience
 Skills
 ======
 
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* PyTorch / Libtorch: In-depth knowledge of PyTorch operators' workflow and implementation, including distributed training packages, and multi-threading / streaming programming.
+* CUDA programming / Triton: Intermediate in CUDA stream and kernel programming, with a solid understanding of CUDA principles.
+* DeepSpeed / Megatron: Experience using DeepSpeed and Megatron for distributed training, including manual implementation for optimization.
+* Programming Languages: Python (Mainly for PyTorch), C/C++ (Mainly for Multi-thread, CUDA Programming, and LibTorch).
 
 Publications
 ============
