@@ -26,7 +26,7 @@ News
 Projects
 ========
 
-**ZO2: Zero-Order Optimization for Large Language Models**
+**ZO2 (Zeroth-Order Offloading): Full Parameter Fine-Tuning 175B LLMs with 18GB GPU Memory**
 - Developed a novel optimization algorithm for efficient training of large language models
 - Published paper in arXiv (2503.12668)
 - Repository: [https://github.com/liangyuwang/zo2](https://github.com/liangyuwang/zo2)
@@ -34,9 +34,9 @@ Projects
 Publications
 ============
 
-* **ZO2: Zero-Order Optimization for Large Language Models**  
+* **ZO2: Scalable Zeroth-Order Fine-Tuning for Extremely Large Language Models with Limited GPU Memory**  
   **Liangyu Wang**, Jie Ren, Hang Xu, Junxiao Wang, Huanyi Xie, David E. Keyes, and Di Wang  
-  NeurIPS workshop, 2024; arXiv preprint arXiv:2503.12668, 2025  
+  NeurIPS workshop, 2024; arXiv preprint arXiv:2503.12668, 2025 
   [Paper](https://arxiv.org/abs/2503.12668) | [Code](https://github.com/liangyuwang/zo2)
 
 * **FlashDP: Memory-Efficient and High-Throughput DP-SGD Training for Large Language Models**  
@@ -45,7 +45,7 @@ Publications
   [Paper](https://openreview.net/pdf?id=6izXTVVzoI)
 
 * **WiP: Towards Light Adaptation of Large Language Models For Personal Hardware**  
-  **Liangyu Wang**, Junxiao Wang and Di Wang
+  **Liangyu Wang**, Junxiao Wang and Di Wang  
   Mobisys workshop 2024 
   [Paper](https://dl.acm.org/doi/pdf/10.1145/3662006.3662065)
 
