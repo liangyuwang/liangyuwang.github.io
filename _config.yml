@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Liangyu Wang"
   pronouns         : # example: "she/her"  
-  bio              : "LLM, CUDA/System, Distributed Computing"
+  bio              : "LLM, MLsys"
   location         : "Saudi Arabia (SA)"
   employer         : "KAUST"
   uri              : # URL
@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "liangyu-wang-in"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -65,7 +65,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : "liangyuwang10"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
