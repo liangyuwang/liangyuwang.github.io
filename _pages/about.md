@@ -27,8 +27,7 @@ Projects
 ========
 
 **ZO2 (Zeroth-Order Offloading): Full Parameter Fine-Tuning 175B LLMs with 18GB GPU Memory**
-- Developed a novel optimization algorithm for efficient training of large language models
-- Published paper in arXiv (2503.12668)
+- A framework that enables fine-tuning of extremely large language models (like OPT-175B) on limited GPU memory through zeroth-order optimization and CPU-GPU offloading.
 - Repository: [https://github.com/liangyuwang/zo2](https://github.com/liangyuwang/zo2)
 
 Publications
