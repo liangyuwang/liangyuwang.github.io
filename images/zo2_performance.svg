@@ -1,0 +1,58 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="white" />
+  
+  <!-- Chart title -->
+  <text x="400" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle">ZO2 Performance Comparison</text>
+  
+  <!-- Y-axis -->
+  <line x1="100" y1="80" x2="100" y2="320" stroke="#333" stroke-width="2" />
+  <!-- Y-axis labels -->
+  <text x="95" y="320" font-family="Arial" font-size="12" text-anchor="end" dominant-baseline="middle">0</text>
+  <text x="95" y="260" font-family="Arial" font-size="12" text-anchor="end" dominant-baseline="middle">25</text>
+  <text x="95" y="200" font-family="Arial" font-size="12" text-anchor="end" dominant-baseline="middle">50</text>
+  <text x="95" y="140" font-family="Arial" font-size="12" text-anchor="end" dominant-baseline="middle">75</text>
+  <text x="95" y="80" font-family="Arial" font-size="12" text-anchor="end" dominant-baseline="middle">100</text>
+  
+  <!-- Y-axis title -->
+  <text x="50" y="200" font-family="Arial" font-size="14" text-anchor="middle" transform="rotate(-90, 50, 200)">Memory Usage (GB)</text>
+  
+  <!-- X-axis -->
+  <line x1="100" y1="320" x2="700" y2="320" stroke="#333" stroke-width="2" />
+  
+  <!-- Bars for different methods -->
+  <!-- Standard Fine-tuning -->
+  <rect x="150" y="100" width="80" height="220" fill="#4b6cb7" />
+  <text x="190" y="340" font-family="Arial" font-size="12" text-anchor="middle">Standard</text>
+  <text x="190" y="355" font-family="Arial" font-size="12" text-anchor="middle">Fine-tuning</text>
+  <text x="190" y="90" font-family="Arial" font-size="12" text-anchor="middle" fill="white">88 GB</text>
+  
+  <!-- LoRA -->
+  <rect x="300" y="200" width="80" height="120" fill="#4b6cb7" />
+  <text x="340" y="340" font-family="Arial" font-size="12" text-anchor="middle">LoRA</text>
+  <text x="340" y="190" font-family="Arial" font-size="12" text-anchor="middle" fill="white">48 GB</text>
+  
+  <!-- QLoRA -->
+  <rect x="450" y="245" width="80" height="75" fill="#4b6cb7" />
+  <text x="490" y="340" font-family="Arial" font-size="12" text-anchor="middle">QLoRA</text>
+  <text x="490" y="235" font-family="Arial" font-size="12" text-anchor="middle" fill="white">30 GB</text>
+  
+  <!-- ZO2 (Our Method) -->
+  <rect x="600" y="275" width="80" height="45" fill="#ff6b6b" />
+  <text x="640" y="340" font-family="Arial" font-size="12" text-anchor="middle">ZO2</text>
+  <text x="640" y="355" font-family="Arial" font-size="12" text-anchor="middle">(Our Method)</text>
+  <text x="640" y="265" font-family="Arial" font-size="12" text-anchor="middle" fill="white">18 GB</text>
+  
+  <!-- Legend -->
+  <rect x="550" y="50" width="15" height="15" fill="#4b6cb7" />
+  <text x="570" y="62" font-family="Arial" font-size="12" dominant-baseline="middle">Standard Methods</text>
+  
+  <rect x="550" y="75" width="15" height="15" fill="#ff6b6b" />
+  <text x="570" y="87" font-family="Arial" font-size="12" dominant-baseline="middle">ZO2 (Our Method)</text>
+  
+  <!-- Horizontal grid lines -->
+  <line x1="100" y1="260" x2="700" y2="260" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5" />
+  <line x1="100" y1="200" x2="700" y2="200" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5" />
+  <line x1="100" y1="140" x2="700" y2="140" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5" />
+  <line x1="100" y1="80" x2="700" y2="80" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5" />
+</svg> 
