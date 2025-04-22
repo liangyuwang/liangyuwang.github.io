@@ -37,19 +37,19 @@ Skills
 * DeepSpeed / Megatron: Experience using DeepSpeed and Megatron for distributed training, including manual implementation for optimization.
 * Programming Languages: Python (Mainly for PyTorch), C/C++ (Mainly for Multi-thread, CUDA Programming, and LibTorch).
 
-Publications
+<!-- Publications
 ============
 
 <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul> -->
 
-Teaching
+<!-- Teaching
 ========
 
 <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> --> -->
 
 <!-- Talks
 =====
