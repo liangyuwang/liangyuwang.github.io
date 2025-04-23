@@ -9,11 +9,11 @@
   <line x1="100" y1="80" x2="100" y2="420" stroke="#333" stroke-width="2" />
   <!-- Y-axis labels -->
   <text x="95" y="420" font-family="Arial" font-size="12" text-anchor="end" dominant-baseline="middle">0</text>
-  <text x="95" y="360" font-family="Arial" font-size="12" text-anchor="end" dominant-baseline="middle">20</text>
-  <text x="95" y="300" font-family="Arial" font-size="12" text-anchor="end" dominant-baseline="middle">40</text>
-  <text x="95" y="240" font-family="Arial" font-size="12" text-anchor="end" dominant-baseline="middle">60</text>
-  <text x="95" y="180" font-family="Arial" font-size="12" text-anchor="end" dominant-baseline="middle">80</text>
-  <text x="95" y="120" font-family="Arial" font-size="12" text-anchor="end" dominant-baseline="middle">100</text>
+  <text x="95" y="350" font-family="Arial" font-size="12" text-anchor="end" dominant-baseline="middle">10</text>
+  <text x="95" y="280" font-family="Arial" font-size="12" text-anchor="end" dominant-baseline="middle">20</text>
+  <text x="95" y="210" font-family="Arial" font-size="12" text-anchor="end" dominant-baseline="middle">30</text>
+  <text x="95" y="140" font-family="Arial" font-size="12" text-anchor="end" dominant-baseline="middle">40</text>
+  <text x="95" y="80" font-family="Arial" font-size="12" text-anchor="end" dominant-baseline="middle">70</text>
   
   <!-- Y-axis title -->
   <text x="50" y="250" font-family="Arial" font-size="14" text-anchor="middle" transform="rotate(-90, 50, 250)">Memory Usage (GB)</text>
@@ -22,102 +22,90 @@
   <line x1="100" y1="420" x2="700" y2="420" stroke="#333" stroke-width="2" />
   
   <!-- X-axis labels -->
-  <text x="140" y="440" font-family="Arial" font-size="14" text-anchor="middle">OPT-1.3B</text>
-  <text x="200" y="440" font-family="Arial" font-size="14" text-anchor="middle">OPT-2.7B</text>
-  <text x="260" y="440" font-family="Arial" font-size="14" text-anchor="middle">OPT-6.7B</text>
-  <text x="320" y="440" font-family="Arial" font-size="14" text-anchor="middle">OPT-13B</text>
-  <text x="380" y="440" font-family="Arial" font-size="14" text-anchor="middle">OPT-30B</text>
-  <text x="440" y="440" font-family="Arial" font-size="14" text-anchor="middle">OPT-66B</text>
-  <text x="500" y="440" font-family="Arial" font-size="14" text-anchor="middle">OPT-175B</text>
-
-  <!-- OPT-1.3B (ZO2 only) -->
-  <rect x="130" y="393" width="20" height="27" fill="#d62728" />
-  <text x="140" y="388" font-family="Arial" font-size="12" text-anchor="middle">3.75</text>
-  
-  <!-- OPT-2.7B (ZO2 only) -->
-  <rect x="190" y="391" width="20" height="29" fill="#d62728" />
-  <text x="200" y="386" font-family="Arial" font-size="12" text-anchor="middle">4.14</text>
+  <text x="200" y="440" font-family="Arial" font-size="14" text-anchor="middle">OPT-6.7B</text>
+  <text x="350" y="440" font-family="Arial" font-size="14" text-anchor="middle">OPT-13B</text>
+  <text x="500" y="440" font-family="Arial" font-size="14" text-anchor="middle">OPT-30B</text>
+  <text x="650" y="440" font-family="Arial" font-size="14" text-anchor="middle">OPT-175B</text>
   
   <!-- OPT-6.7B Group -->
   <!-- AdamW -->
-  <rect x="235" y="232" width="15" height="188" fill="#1f77b4" />
-  <text x="242" y="222" font-family="Arial" font-size="12" text-anchor="middle">68</text>
+  <rect x="150" y="100" width="30" height="320" fill="#1f77b4" />
+  <text x="165" y="90" font-family="Arial" font-size="12" text-anchor="middle">68</text>
   
   <!-- SGD -->
-  <rect x="255" y="308" width="15" height="112" fill="#ff7f0e" />
-  <text x="262" y="298" font-family="Arial" font-size="12" text-anchor="middle">32</text>
+  <rect x="185" y="222" width="30" height="198" fill="#ff7f0e" />
+  <text x="200" y="212" font-family="Arial" font-size="12" text-anchor="middle">32</text>
   
   <!-- MeZO -->
-  <rect x="275" y="364" width="15" height="56" fill="#2ca02c" />
-  <text x="282" y="354" font-family="Arial" font-size="12" text-anchor="middle">16</text>
+  <rect x="220" y="295" width="30" height="125" fill="#2ca02c" />
+  <text x="235" y="285" font-family="Arial" font-size="12" text-anchor="middle">16</text>
   
   <!-- ZO2 -->
-  <rect x="295" y="385" width="15" height="35" fill="#d62728" />
-  <text x="302" y="375" font-family="Arial" font-size="12" text-anchor="middle">4.99</text>
+  <rect x="255" y="385" width="30" height="35" fill="#d62728" />
+  <text x="270" y="375" font-family="Arial" font-size="12" text-anchor="middle">4</text>
   
   <!-- OPT-13B Group -->
+  <!-- X mark for AdamW -->
+  <text x="310" y="420" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold">x</text>
+  
   <!-- SGD -->
-  <rect x="305" y="253.5" width="15" height="166.5" fill="#ff7f0e" />
-  <text x="312" y="243.5" font-family="Arial" font-size="12" text-anchor="middle">57</text>
+  <rect x="335" y="130" width="30" height="290" fill="#ff7f0e" />
+  <text x="350" y="120" font-family="Arial" font-size="12" text-anchor="middle">57</text>
   
   <!-- MeZO -->
-  <rect x="325" y="311" width="15" height="109" fill="#2ca02c" />
-  <text x="332" y="301" font-family="Arial" font-size="12" text-anchor="middle">29</text>
+  <rect x="370" y="230" width="30" height="190" fill="#2ca02c" />
+  <text x="385" y="220" font-family="Arial" font-size="12" text-anchor="middle">29</text>
   
   <!-- ZO2 -->
-  <rect x="345" y="377" width="15" height="43" fill="#d62728" />
-  <text x="352" y="367" font-family="Arial" font-size="12" text-anchor="middle">6.18</text>
+  <rect x="405" y="370" width="30" height="50" fill="#d62728" />
+  <text x="420" y="360" font-family="Arial" font-size="12" text-anchor="middle">6</text>
   
   <!-- OPT-30B Group -->
+  <!-- X mark for AdamW -->
+  <text x="460" y="420" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold">x</text>
+  
+  <!-- X mark for SGD -->
+  <text x="495" y="420" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold">x</text>
+  
   <!-- MeZO -->
-  <rect x="365" y="243" width="15" height="177" fill="#2ca02c" />
-  <text x="372" y="233" font-family="Arial" font-size="12" text-anchor="middle">63</text>
+  <rect x="530" y="112" width="30" height="308" fill="#2ca02c" />
+  <text x="545" y="102" font-family="Arial" font-size="12" text-anchor="middle">63</text>
   
   <!-- ZO2 -->
-  <rect x="385" y="358" width="15" height="62" fill="#d62728" />
-  <text x="392" y="348" font-family="Arial" font-size="12" text-anchor="middle">8.86</text>
-  
-  <!-- OPT-66B (ZO2 only) -->
-  <rect x="435" y="336" width="15" height="84" fill="#d62728" />
-  <text x="442" y="326" font-family="Arial" font-size="12" text-anchor="middle">12.07</text>
+  <rect x="565" y="350" width="30" height="70" fill="#d62728" />
+  <text x="580" y="340" font-family="Arial" font-size="12" text-anchor="middle">8</text>
   
   <!-- OPT-175B Group -->
+  <!-- X mark for AdamW -->
+  <text x="610" y="420" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold">x</text>
+  
+  <!-- X mark for SGD -->
+  <text x="645" y="420" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold">x</text>
+  
+  <!-- X mark for MeZO -->
+  <text x="680" y="420" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold">x</text>
+  
   <!-- ZO2 -->
-  <rect x="495" y="294" width="15" height="126" fill="#d62728" />
-  <text x="502" y="284" font-family="Arial" font-size="12" text-anchor="middle">18.04</text>
+  <rect x="650" y="287" width="30" height="133" fill="#d62728" />
+  <text x="665" y="277" font-family="Arial" font-size="12" text-anchor="middle">18</text>
   
   <!-- Legend -->
-  <rect x="600" y="80" width="15" height="15" fill="#1f77b4" />
-  <text x="620" y="92" font-family="Arial" font-size="12" dominant-baseline="middle">AdamW</text>
+  <rect x="600" y="50" width="15" height="15" fill="#1f77b4" />
+  <text x="620" y="62" font-family="Arial" font-size="12" dominant-baseline="middle">AdamW</text>
   
-  <rect x="600" y="105" width="15" height="15" fill="#ff7f0e" />
-  <text x="620" y="117" font-family="Arial" font-size="12" dominant-baseline="middle">SGD</text>
+  <rect x="600" y="75" width="15" height="15" fill="#ff7f0e" />
+  <text x="620" y="87" font-family="Arial" font-size="12" dominant-baseline="middle">SGD</text>
   
-  <rect x="600" y="130" width="15" height="15" fill="#2ca02c" />
-  <text x="620" y="142" font-family="Arial" font-size="12" dominant-baseline="middle">MeZO</text>
+  <rect x="600" y="100" width="15" height="15" fill="#2ca02c" />
+  <text x="620" y="112" font-family="Arial" font-size="12" dominant-baseline="middle">MeZO</text>
   
-  <rect x="600" y="155" width="15" height="15" fill="#d62728" />
-  <text x="620" y="167" font-family="Arial" font-size="12" dominant-baseline="middle">ZO2</text>
+  <rect x="600" y="125" width="15" height="15" fill="#d62728" />
+  <text x="620" y="137" font-family="Arial" font-size="12" dominant-baseline="middle">ZO2</text>
   
   <!-- Horizontal grid lines -->
-  <line x1="100" y1="360" x2="700" y2="360" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5" />
-  <line x1="100" y1="300" x2="700" y2="300" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5" />
-  <line x1="100" y1="240" x2="700" y2="240" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5" />
-  <line x1="100" y1="180" x2="700" y2="180" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5" />
-  <line x1="100" y1="120" x2="700" y2="120" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5" />
-  
-  <!-- X markers for missing data -->
-  <text x="320" y="420" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">✕</text> <!-- AdamW for OPT-13B -->
-  <text x="380" y="420" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">✕</text> <!-- AdamW for OPT-30B -->
-  <text x="380" y="420" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">✕</text> <!-- SGD for OPT-30B -->
-  <text x="440" y="420" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">✕</text> <!-- AdamW for OPT-66B -->
-  <text x="440" y="420" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">✕</text> <!-- SGD for OPT-66B -->
-  <text x="440" y="420" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">✕</text> <!-- MeZO for OPT-66B -->
-  <text x="500" y="420" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">✕</text> <!-- AdamW for OPT-175B -->
-  <text x="500" y="420" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">✕</text> <!-- SGD for OPT-175B -->
-  <text x="500" y="420" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">✕</text> <!-- MeZO for OPT-175B -->
-  
-  <!-- ZO2 Growth Line -->
-  <polyline points="140,393 200,391 302,385 352,377 392,358 442,336 502,294" 
-            fill="none" stroke="#d62728" stroke-width="2" stroke-dasharray="5,3" />
+  <line x1="100" y1="350" x2="700" y2="350" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5" />
+  <line x1="100" y1="280" x2="700" y2="280" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5" />
+  <line x1="100" y1="210" x2="700" y2="210" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5" />
+  <line x1="100" y1="140" x2="700" y2="140" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5" />
+  <line x1="100" y1="80" x2="700" y2="80" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5" />
 </svg> 

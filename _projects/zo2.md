@@ -97,40 +97,7 @@ For larger models, the memory savings are even more significant. ZO2 can fine-tu
 
 ![Memory Usage Comparison](/images/zo2_performance.svg)
 
-The "X" markers in the chart indicate cases where the model couldn't be fine-tuned with the corresponding method due to excessive memory requirements. ZO2 is the only method capable of fine-tuning all model sizes, including the massive 175B parameter model, on consumer-grade GPUs.
-
-### Complete GPU Memory Requirements for ZO2
-
-The table below shows the exact GPU memory requirements for fine-tuning different OPT model sizes using the ZO2 method:
-
-<table class="table" style="width: 100%; border-collapse: collapse; margin: 20px 0;">
-  <thead style="background-color: #4b6cb7; color: white;">
-    <tr>
-      <th style="padding: 10px; border: 1px solid #ddd; text-align: center;">OPT Models</th>
-      <th style="padding: 10px; border: 1px solid #ddd; text-align: center;">1.3B</th>
-      <th style="padding: 10px; border: 1px solid #ddd; text-align: center;">2.7B</th>
-      <th style="padding: 10px; border: 1px solid #ddd; text-align: center;">6.7B</th>
-      <th style="padding: 10px; border: 1px solid #ddd; text-align: center;">13B</th>
-      <th style="padding: 10px; border: 1px solid #ddd; text-align: center;">30B</th>
-      <th style="padding: 10px; border: 1px solid #ddd; text-align: center;">66B</th>
-      <th style="padding: 10px; border: 1px solid #ddd; text-align: center;">175B</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;"><strong>GPU memory (GB)</strong></td>
-      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">3.75</td>
-      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">4.14</td>
-      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">4.99</td>
-      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">6.18</td>
-      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">8.86</td>
-      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">12.07</td>
-      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;"><strong>18.04</strong></td>
-    </tr>
-  </tbody>
-</table>
-
-As the table demonstrates, ZO2 scales efficiently from the smallest (1.3B) to the largest (175B) OPT models, with memory requirements growing sub-linearly with model size.
+The "x" markers in the chart indicate cases where the model couldn't be fine-tuned with the corresponding method due to excessive memory requirements. ZO2 is the only method capable of fine-tuning all model sizes, including the massive 175B parameter model, on consumer-grade GPUs.
 
 ## Resources
 
