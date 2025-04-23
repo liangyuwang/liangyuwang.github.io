@@ -91,9 +91,46 @@ for inputs, targets in dataloader:
 
 ## Results
 
-ZO2 enables fine-tuning of the OPT-175B model (175 billion parameters) on a single GPU with only 18GB of memory—an achievement beyond the reach of traditional methods.
+ZO2 dramatically reduces GPU memory requirements across different model sizes. For example, when fine-tuning OPT-6.7B, ZO2 requires only 4GB of GPU memory compared to 68GB for AdamW, 32GB for SGD, and 16GB for MeZO. Similarly, for OPT-13B, ZO2 needs only 6GB compared to 57GB for SGD and 29GB for MeZO.
 
-![Performance Comparison](/images/zo2_performance.svg)
+For larger models, the memory savings are even more significant. ZO2 can fine-tune OPT-30B with just 8GB of memory (compared to 63GB for MeZO), and most impressively, enables fine-tuning of OPT-175B with only 18GB of GPU memory - a model that is impossible to fine-tune with traditional methods on consumer hardware.
+
+![Memory Usage Comparison](/images/zo2_performance.svg)
+
+The "X" markers in the chart indicate cases where the model couldn't be fine-tuned with the corresponding method due to excessive memory requirements. ZO2 is the only method capable of fine-tuning all model sizes, including the massive 175B parameter model, on consumer-grade GPUs.
+
+### Complete GPU Memory Requirements for ZO2
+
+The table below shows the exact GPU memory requirements for fine-tuning different OPT model sizes using the ZO2 method:
+
+<table class="table" style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+  <thead style="background-color: #4b6cb7; color: white;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center;">OPT Models</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center;">1.3B</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center;">2.7B</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center;">6.7B</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center;">13B</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center;">30B</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center;">66B</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center;">175B</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;"><strong>GPU memory (GB)</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">3.75</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">4.14</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">4.99</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">6.18</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">8.86</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">12.07</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;"><strong>18.04</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+As the table demonstrates, ZO2 scales efficiently from the smallest (1.3B) to the largest (175B) OPT models, with memory requirements growing sub-linearly with model size.
 
 ## Resources
 
