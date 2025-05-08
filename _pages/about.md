@@ -10,6 +10,7 @@ I am Liangyu Wang, a Ph.D. student in Computer Science at King Abdullah Universi
 
 My research interests include optimizing distributed training and inference of LLMs, improving multi-threaded and multi-stream scheduling, and enhancing privacy-preserving methods for LLMs. I have interned as a LLM Pretraining Engineer at [Aramco](https://www.aramco.com/), working with large-scale GPU clusters to boost training throughput and model scalability. Currently, I am working on:
 
+* Efficient Reinforcement Learning (RL) for LLMs Reasoning
 * Distributed training and inference of LLMs
 * Efficient algorithm and infrastructure design for LLMs
 * Efficient privacy-preserving methods
