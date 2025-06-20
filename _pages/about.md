@@ -18,12 +18,6 @@ My research interests include optimizing distributed training and inference of L
 * Efficient algorithm and infrastructure design for LLMs
 * Efficient privacy-preserving methods
 
-**Contact & Social**  
-<a href="https://www.linkedin.com/in/liangyu-wang-in" target="_blank" style="margin-right:10px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="24" style="vertical-align:middle;"/></a>
-<a href="https://x.com/liangyuwang10" target="_blank" style="margin-right:10px;"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" alt="X" width="24" style="vertical-align:middle; background:#000; border-radius:4px;"/></a>
-<a href="https://github.com/liangyuwang" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="24" style="vertical-align:middle;"/></a>  
-Email: liangyu.wang@kaust.edu.sa
-
 News
 ====
 
