@@ -47,7 +47,8 @@ Publications
   [Paper](https://arxiv.org/abs/2503.12668) | [Code](https://github.com/liangyuwang/zo2)
 
 * **Infinite-Sampling: Efficient and Stable Grouped RL Training for Large Language Models**  
-  **Liangyu Wang**, Huanyi Xie, Xinhai Wang, Tianjin Huang, Mengdi Li, and Di Wang
+  **Liangyu Wang**, Huanyi Xie, Xinhai Wang, Tianjin Huang, Mengdi Li, and Di Wang  
+  preprint arXiv:2506.22950, 2025 
   [Paper](https://arxiv.org/pdf/2506.22950)
 
 * **FlashDP: Memory-Efficient and High-Throughput DP-SGD Training for Large Language Models**  
