@@ -9,7 +9,7 @@ redirect_from:
 I am Liangyu Wang, a Ph.D. candidate in Computer Science at King Abdullah University of Science and Technology ([KAUST](https://www.kaust.edu.sa/en/)), specializing in efficient training and inference for large language models (LLMs) through distributed computing and advanced GPU programming. 
 Before that, I completed my master degree at The Chinese University of Hong Kong, focusing on multimodal machine learning.
 
-Currently, I am conducting large language model pretraining research at the [Alibaba Qwen Team](https://huggingface.co/Qwen).
+Currently, I am conducting LLM pretraining research at the [Alibaba Qwen Team](https://huggingface.co/Qwen).
 
 My research interests include optimizing distributed training and inference of LLMs, improving multi-threaded and multi-stream scheduling, and enhancing privacy-preserving methods for LLMs. I have interned as a LLM Pretraining Engineer at [Aramco](https://www.aramco.com/), working with large-scale GPU clusters to boost training throughput and model scalability. Currently, I am working on:
 
@@ -20,6 +20,8 @@ My research interests include optimizing distributed training and inference of L
 
 News
 ====
+
+* 07/2025: Released Infinite-Sampling ([paper](https://arxiv.org/pdf/2506.22950)).
 
 * 06/2025: Joined [Alibaba Qwen Team](https://huggingface.co/Qwen) for LLM Pretraining.
 
@@ -43,6 +45,10 @@ Publications
   **Liangyu Wang**, Jie Ren, Hang Xu, Junxiao Wang, Huanyi Xie, David E. Keyes, and Di Wang  
   NeurIPS workshop, 2024; arXiv preprint arXiv:2503.12668, 2025 
   [Paper](https://arxiv.org/abs/2503.12668) | [Code](https://github.com/liangyuwang/zo2)
+
+* **Infinite-Sampling: Efficient and Stable Grouped RL Training for Large Language Models**
+**Liangyu Wang**, Huanyi Xie, Xinhai Wang, Tianjin Huang, Mengdi Li, and Di Wang
+  [Paper](https://arxiv.org/pdf/2506.22950)
 
 * **FlashDP: Memory-Efficient and High-Throughput DP-SGD Training for Large Language Models**  
   **Liangyu Wang**, Junxiao Wang, Jie Ren, Zihang Xiang, David E. Keyes, and Di Wang  
