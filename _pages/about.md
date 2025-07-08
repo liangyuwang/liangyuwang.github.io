@@ -54,12 +54,12 @@ Publications
 * **DistZO2: : High-Throughput and Memory-Efficient Zeroth-Order Fine-tuning LLMs with Distributed Parallel Computing**  
   **Liangyu Wang**, Huanyi Xie, and Di Wang
   preprint arXiv:2507.03211, 2025 
-  [Paper](https://arxiv.org/pdf/2507.03211)
+  [Paper](https://arxiv.org/pdf/2507.03211) | [Code](https://github.com/liangyuwang/zo2)
 
 * **FlashDP: Memory-Efficient and High-Throughput DP-SGD Training for Large Language Models**  
   **Liangyu Wang**, Junxiao Wang, Jie Ren, Zihang Xiang, David E. Keyes, and Di Wang  
   NeurIPS workshop 2024 
-  [Paper](https://openreview.net/pdf?id=6izXTVVzoI)
+  [Paper](https://openreview.net/pdf?id=6izXTVVzoI) | [Code](https://github.com/kaustpradalab/flashdp)
 
 * **WiP: Towards Light Adaptation of Large Language Models For Personal Hardware**  
   **Liangyu Wang**, Junxiao Wang and Di Wang  
