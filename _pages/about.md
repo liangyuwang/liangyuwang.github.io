@@ -32,11 +32,11 @@ News
 Projects
 ========
 
-**ZO2 (Zeroth-Order Offloading): Full Parameter Fine-Tuning 175B LLMs with 18GB GPU Memory** ![GitHub stars](https://img.shields.io/github/stars/liangyuwang/zo2?style=social)
-- A framework that enables fine-tuning of extremely large language models (like OPT-175B) on limited GPU memory through zeroth-order optimization and CPU-GPU offloading. [GitHub](https://github.com/liangyuwang/zo2)
+**ZO2 (Zeroth-Order Offloading): Full Parameter Fine-Tuning 175B LLMs with 18GB GPU Memory** [![GitHub stars](https://img.shields.io/github/stars/liangyuwang/zo2?style=social)](https://github.com/liangyuwang/zo2)
+- A framework that enables fine-tuning of extremely large language models (like OPT-175B) on limited GPU memory through zeroth-order optimization and CPU-GPU offloading.
 
-**Tiny-DeepSpeed: A Minimalistic Re-Implementation of DeepSpeed** ![GitHub stars](https://img.shields.io/github/stars/liangyuwang/Tiny-DeepSpeed?style=social)
-- A concise re-implementation of [DeepSpeed](https://github.com/deepspeedai/DeepSpeed), designed to help users understand the core functionalities of distributed training and model optimization. [GitHub](https://github.com/liangyuwang/Tiny-DeepSpeed)
+**Tiny-DeepSpeed: A Minimalistic Re-Implementation of DeepSpeed** [![GitHub stars](https://img.shields.io/github/stars/liangyuwang/Tiny-DeepSpeed?style=social)](https://github.com/liangyuwang/Tiny-DeepSpeed)
+- A concise re-implementation of [DeepSpeed](https://github.com/deepspeedai/DeepSpeed), designed to help users understand the core functionalities of distributed training and model optimization.
 
 Publications
 ============
@@ -50,6 +50,11 @@ Publications
   **Liangyu Wang**, Huanyi Xie, Xinhai Wang, Tianjin Huang, Mengdi Li, and Di Wang  
   preprint arXiv:2506.22950, 2025 
   [Paper](https://arxiv.org/pdf/2506.22950)
+
+* **DistZO2: : High-Throughput and Memory-Efficient Zeroth-Order Fine-tuning LLMs with Distributed Parallel Computing**  
+  **Liangyu Wang**, Huanyi Xie, and Di Wang
+  preprint arXiv:2507.03211, 2025 
+  [Paper](https://arxiv.org/pdf/2507.03211)
 
 * **FlashDP: Memory-Efficient and High-Throughput DP-SGD Training for Large Language Models**  
   **Liangyu Wang**, Junxiao Wang, Jie Ren, Zihang Xiang, David E. Keyes, and Di Wang  
