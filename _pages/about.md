@@ -21,6 +21,8 @@ My research interests include optimizing distributed training and inference of L
 News
 ====
 
+* 07/2025: ZO2 is accepted by [COLM 2025](https://colmweb.org/index.html).
+
 * 07/2025: Released Infinite-Sampling ([paper](https://arxiv.org/pdf/2506.22950)).
 
 * 06/2025: Joined [Alibaba Qwen Team](https://huggingface.co/Qwen) for LLM Pretraining.
