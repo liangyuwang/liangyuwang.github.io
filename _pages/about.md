@@ -45,7 +45,7 @@ Publications
 
 * **ZO2: Scalable Zeroth-Order Fine-Tuning for Extremely Large Language Models with Limited GPU Memory**  
   **Liangyu Wang**, Jie Ren, Hang Xu, Junxiao Wang, Huanyi Xie, David E. Keyes, and Di Wang  
-  NeurIPS workshop, 2024; arXiv preprint arXiv:2503.12668, 2025 
+  COLM, 2025; NeurIPS workshop, 2024; arXiv preprint arXiv:2503.12668, 2025 
   [Paper](https://arxiv.org/abs/2503.12668) | [Code](https://github.com/liangyuwang/zo2)
 
 * **Infinite-Sampling: Efficient and Stable Grouped RL Training for Large Language Models**  
