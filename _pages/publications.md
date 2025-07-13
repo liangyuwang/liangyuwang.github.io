@@ -13,7 +13,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 
 ### Attributing Data for Sharpness-Aware Minimization
 
-[**Paper**](https://arxiv.org/abs/2507.04059)
+[[paper](https://arxiv.org/abs/2507.04059)]
 
 <details>
 <summary><strong>Abstract</strong></summary>
@@ -25,7 +25,7 @@ Sharpness-aware Minimization (SAM) improves generalization in large-scale model 
 
 ### DistZO2: High-Throughput and Memory-Efficient Zeroth-Order Fine-tuning LLMs with Distributed Parallel Computing
 
-[[Paper](https://arxiv.org/pdf/2507.03211)] [[code](https://github.com/liangyuwang/zo2)]
+[[paper](https://arxiv.org/pdf/2507.03211)] [[code](https://github.com/liangyuwang/zo2)]
 
 <details>
 <summary><strong>Abstract</strong></summary>
@@ -37,7 +37,7 @@ Fine-tuning large language models (LLMs) remains resource-intensive due to their
 
 ### FlashDP: Memory-Efficient and High-Throughput DP-SGD Training for Large Language Models
 
-[[Paper](https://openreview.net/pdf?id=6izXTVVzoI)] [[!code](https://github.com/kaustpradalab/flashdp)]
+[[paper](https://openreview.net/pdf?id=6izXTVVzoI)] [[!code](https://github.com/kaustpradalab/flashdp)]
 
 <details>
 <summary><strong>Abstract</strong></summary>
@@ -49,7 +49,7 @@ As large language models (LLMs) increasingly underpin technological advancements
 
 ### Infinite-Sampling: Efficient and Stable Grouped RL Training for Large Language Models
 
-[[Paper](https://arxiv.org/pdf/2506.22950)]
+[[paper](https://arxiv.org/pdf/2506.22950)]
 
 <details>
 <summary><strong>Abstract</strong></summary>
@@ -61,7 +61,7 @@ Group-based reinforcement learning algorithms such as Group Reward Policy Optimi
 
 ### ZO2: Scalable Zeroth-Order Fine-Tuning for Extremely Large Language Models with Limited GPU Memory
 
-[[Paper](https://arxiv.org/abs/2503.12668)] [[code](https://github.com/liangyuwang/zo2)]
+[[paper](https://arxiv.org/abs/2503.12668)] [[code](https://github.com/liangyuwang/zo2)]
 
 <details>
 <summary><strong>Abstract</strong></summary>
@@ -73,7 +73,7 @@ Fine-tuning large pre-trained LLMs generally demands extensive GPU memory. Tradi
 
 ### V2-SfMLearner: Learning Monocular Depth and Ego-motion for Multimodal Wireless Capsule Endoscopy
 
-[[Paper](https://doi.org/10.1109/TASE.2024.3516968)]
+[[paper](https://doi.org/10.1109/TASE.2024.3516968)]
 
 <details>
 <summary><strong>Abstract</strong></summary>
@@ -89,7 +89,7 @@ Deep learning can predict depth maps and capsule ego-motion from capsule endosco
 
 ### WiP: Towards Light Adaptation of Large Language Models For Personal Hardware
 
-[[Paper](https://dl.acm.org/doi/pdf/10.1145/3662006.3662065)]
+[[paper](https://dl.acm.org/doi/pdf/10.1145/3662006.3662065)]
 
 <details>
 <summary><strong>Abstract</strong></summary>
@@ -105,7 +105,7 @@ The large language models (LLMs) that everyone is using are not deployed locally
 
 ### Transformer-Based Disease Identification for Small-Scale Imbalanced Capsule Endoscopy Dataset
 
-[[Paper](https://www.mdpi.com/2079-9292/11/17/2747)]
+[[paper](https://www.mdpi.com/2079-9292/11/17/2747)]
 
 <details>
 <summary><strong>Abstract</strong></summary>
