@@ -28,7 +28,7 @@ Sharpness-aware Minimization (SAM) improves generalization in large-scale model 
 
 ### DistZO2: High-Throughput and Memory-Efficient Zeroth-Order Fine-tuning LLMs with Distributed Parallel Computing
 
-[**Paper**](https://arxiv.org/pdf/2507.03211) | [![GitHub stars](https://img.shields.io/github/stars/liangyuwang/zo2?style=social)](https://github.com/liangyuwang/zo2)
+[**Paper**](https://arxiv.org/pdf/2507.03211) [![GitHub stars](https://img.shields.io/github/stars/liangyuwang/zo2?style=social)](https://github.com/liangyuwang/zo2)
 
 <details>
 <summary><strong>Abstract</strong></summary>
@@ -43,7 +43,7 @@ Fine-tuning large language models (LLMs) remains resource-intensive due to their
 
 ### FlashDP: Memory-Efficient and High-Throughput DP-SGD Training for Large Language Models
 
-[**Paper**](https://openreview.net/pdf?id=6izXTVVzoI) | [![GitHub stars](https://img.shields.io/github/stars/kaustpradalab/flashdp?style=social)](https://github.com/kaustpradalab/flashdp)
+[**Paper**](https://openreview.net/pdf?id=6izXTVVzoI) [![GitHub stars](https://img.shields.io/github/stars/kaustpradalab/flashdp?style=social)](https://github.com/kaustpradalab/flashdp)
 
 <details>
 <summary><strong>Abstract</strong></summary>
@@ -73,7 +73,7 @@ Group-based reinforcement learning algorithms such as Group Reward Policy Optimi
 
 ### ZO2: Scalable Zeroth-Order Fine-Tuning for Extremely Large Language Models with Limited GPU Memory
 
-[**Paper**](https://arxiv.org/abs/2503.12668) | [![GitHub stars](https://img.shields.io/github/stars/liangyuwang/zo2?style=social)](https://github.com/liangyuwang/zo2)
+[**Paper**](https://arxiv.org/abs/2503.12668) [![GitHub stars](https://img.shields.io/github/stars/liangyuwang/zo2?style=social)](https://github.com/liangyuwang/zo2)
 
 <details>
 <summary><strong>Abstract</strong></summary>
