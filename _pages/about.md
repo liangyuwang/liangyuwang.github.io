@@ -39,11 +39,11 @@ Projects
 
 **Tiny-LLM-Libs: Minimalistic Re-Implementations of Popular LLM Libraries**
 A collection of concise re-implementations of popular LLM training libraries, designed to help users understand the core functionalities:
-- [**Tiny-DeepSpeed**](https://github.com/liangyuwang/Tiny-DeepSpeed) [![GitHub stars](https://img.shields.io/github/stars/liangyuwang/Tiny-DeepSpeed?style=social)](https://github.com/liangyuwang/Tiny-DeepSpeed)  
+- **Tiny-DeepSpeed** [![GitHub stars](https://img.shields.io/github/stars/liangyuwang/Tiny-DeepSpeed?style=social)](https://github.com/liangyuwang/Tiny-DeepSpeed)  
 A minimalistic re-implementation of DeepSpeed's core functionalities for distributed training
-- [**Tiny-FSDP**](https://github.com/liangyuwang/Tiny-FSDP) [![GitHub stars](https://img.shields.io/github/stars/liangyuwang/Tiny-FSDP?style=social)](https://github.com/liangyuwang/Tiny-FSDP)  
+- **Tiny-FSDP** [![GitHub stars](https://img.shields.io/github/stars/liangyuwang/Tiny-FSDP?style=social)](https://github.com/liangyuwang/Tiny-FSDP)  
 A concise re-implementation of PyTorch FSDP for efficient model parallelism
-- [**Tiny-Megatron**](https://github.com/liangyuwang/Tiny-Megatron) [![GitHub stars](https://img.shields.io/github/stars/liangyuwang/Tiny-Megatron?style=social)](https://github.com/liangyuwang/Tiny-Megatron)  
+- **Tiny-Megatron** [![GitHub stars](https://img.shields.io/github/stars/liangyuwang/Tiny-Megatron?style=social)](https://github.com/liangyuwang/Tiny-Megatron)  
 A simplified version of NVIDIA's Megatron-LM for model parallelism and pipeline parallelism
 
 Publications
