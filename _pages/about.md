@@ -21,6 +21,8 @@ My research interests include optimizing distributed training and inference of L
 News
 ====
 
+* 09/2025: FlashDP is accepted by [NeurIPS 2025](https://neurips.cc/).
+
 * 07/2025: ZO2 is accepted by [COLM 2025](https://colmweb.org/index.html).
 
 * 07/2025: Released Infinite-Sampling ([paper](https://arxiv.org/pdf/2506.22950)).
@@ -39,10 +41,10 @@ Projects
 
 **Tiny-LLM-Libs: Minimalistic Re-Implementations of Popular LLM Libraries**
 A collection of concise re-implementations of popular LLM training libraries, designed to help users understand the core functionalities:
-- **Tiny-DeepSpeed** [![GitHub stars](https://img.shields.io/github/stars/liangyuwang/Tiny-DeepSpeed?style=social)](https://github.com/liangyuwang/Tiny-DeepSpeed)  
-A minimalistic re-implementation of DeepSpeed's core functionalities for distributed training
 - **Tiny-FSDP** [![GitHub stars](https://img.shields.io/github/stars/liangyuwang/Tiny-FSDP?style=social)](https://github.com/liangyuwang/Tiny-FSDP)  
 A concise re-implementation of PyTorch FSDP for efficient model parallelism
+- **Tiny-DeepSpeed** [![GitHub stars](https://img.shields.io/github/stars/liangyuwang/Tiny-DeepSpeed?style=social)](https://github.com/liangyuwang/Tiny-DeepSpeed)  
+A minimalistic re-implementation of DeepSpeed's core functionalities for distributed training
 - **Tiny-Megatron** [![GitHub stars](https://img.shields.io/github/stars/liangyuwang/Tiny-Megatron?style=social)](https://github.com/liangyuwang/Tiny-Megatron)  
 A simplified version of NVIDIA's Megatron-LM for model parallelism and pipeline parallelism
 
@@ -51,8 +53,13 @@ Publications
 
 * **ZO2: Scalable Zeroth-Order Fine-Tuning for Extremely Large Language Models with Limited GPU Memory**  
   **Liangyu Wang**, Jie Ren, Hang Xu, Junxiao Wang, Huanyi Xie, David E. Keyes, and Di Wang  
-  COLM, 2025; NeurIPS workshop, 2024
+  COLM, 2025
   [Paper](https://arxiv.org/abs/2503.12668) | [Code](https://github.com/liangyuwang/zo2)
+
+* **FlashDP: Memory-Efficient and High-Throughput DP-SGD Training for Large Language Models**  
+  **Liangyu Wang**, Junxiao Wang, Jie Ren, Zihang Xiang, David E. Keyes, and Di Wang  
+  NeurIPS 2025
+  [Paper](https://arxiv.org/abs/2507.01154) | [Code](https://github.com/kaustpradalab/flashdp)
 
 * **Infinite-Sampling: Efficient and Stable Grouped RL Training for Large Language Models**  
   **Liangyu Wang**, Huanyi Xie, Xinhai Wang, Tianjin Huang, Mengdi Li, and Di Wang  
@@ -64,11 +71,6 @@ Publications
   preprint arXiv:2507.03211, 2025 
   [Paper](https://arxiv.org/pdf/2507.03211) | [Code](https://github.com/liangyuwang/zo2)
 
-* **FlashDP: Memory-Efficient and High-Throughput DP-SGD Training for Large Language Models**  
-  **Liangyu Wang**, Junxiao Wang, Jie Ren, Zihang Xiang, David E. Keyes, and Di Wang  
-  NeurIPS workshop 2024 
-  [Paper](https://openreview.net/pdf?id=6izXTVVzoI) | [Code](https://github.com/kaustpradalab/flashdp)
-
 * **WiP: Towards Light Adaptation of Large Language Models For Personal Hardware**  
   **Liangyu Wang**, Junxiao Wang and Di Wang  
   Mobisys workshop 2024 
@@ -77,5 +79,6 @@ Publications
 Reviewer Service
 ================
 
+- Program Committee for [AAAI 2026](https://aaai.org/conference/aaai/aaai-26/)
 - Reviewer for [ICLR 2025](https://iclr.cc/)
 - Reviewer for [COLM 2025](https://colmweb.org/)
