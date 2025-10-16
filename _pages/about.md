@@ -25,14 +25,18 @@ My research interests include optimizing distributed training and inference of L
 
 <div class="about-section news-section">
 <h2 class="section-title">News</h2>
-<ul>
-<li>09/2025: FlashDP is accepted by [NeurIPS 2025](https://neurips.cc/).</li>
-<li>07/2025: ZO2 is accepted by [COLM 2025](https://colmweb.org/index.html).</li>
-<li>07/2025: Released Infinite-Sampling ([paper](https://arxiv.org/pdf/2506.22950)).</li>
-<li>06/2025: Joined [Alibaba Qwen Team](https://huggingface.co/Qwen) for LLM Pretraining.</li>
-<li>04/2025: Attended the [ICLR 2025](https://openreview.net/group?id=ICLR.cc/2025/Conference), Singapore.</li>
-<li>03/2025: Released ZO2 ([paper](https://arxiv.org/abs/2503.12668), [code](https://github.com/liangyuwang/zo2)).</li>
-</ul>
+
+<div class="news-item">09/2025: FlashDP is accepted by <a href="https://neurips.cc/">NeurIPS 2025</a>.</div>
+
+<div class="news-item">07/2025: ZO2 is accepted by <a href="https://colmweb.org/index.html">COLM 2025</a>.</div>
+
+<div class="news-item">07/2025: Released Infinite-Sampling (<a href="https://arxiv.org/pdf/2506.22950">paper</a>).</div>
+
+<div class="news-item">06/2025: Joined <a href="https://huggingface.co/Qwen">Alibaba Qwen Team</a> for LLM Pretraining.</div>
+
+<div class="news-item">04/2025: Attended the <a href="https://openreview.net/group?id=ICLR.cc/2025/Conference">ICLR 2025</a>, Singapore.</div>
+
+<div class="news-item">03/2025: Released ZO2 (<a href="https://arxiv.org/abs/2503.12668">paper</a>, <a href="https://github.com/liangyuwang/zo2">code</a>).</div>
 </div>
 
 <div class="about-section projects-section">
@@ -111,9 +115,7 @@ Mobisys workshop 2024<br>
 <div class="about-section reviewer-section">
 <h2 class="section-title">Reviewer Service</h2>
 
-<ul>
-<li>Program Committee for <a href="https://aaai.org/conference/aaai/aaai-26/">AAAI 2026</a></li>
-<li>Reviewer for <a href="https://iclr.cc/">ICLR 2025</a></li>
-<li>Reviewer for <a href="https://colmweb.org/">COLM 2025</a></li>
-</ul>
+<div class="news-item">Program Committee for <a href="https://aaai.org/conference/aaai/aaai-26/">AAAI 2026</a></div>
+<div class="news-item">Reviewer for <a href="https://iclr.cc/">ICLR 2025</a></div>
+<div class="news-item">Reviewer for <a href="https://colmweb.org/">COLM 2025</a></div>
 </div>
