@@ -26,12 +26,19 @@ My research interests include optimizing distributed training and inference of L
 <div class="about-section news-section">
 <h2 class="section-title">News</h2>
 
-* 09/2025: FlashDP is accepted by [NeurIPS 2025](https://neurips.cc/).  
-* 07/2025: ZO2 is accepted by [COLM 2025](https://colmweb.org/index.html).  
-* 07/2025: Released Infinite-Sampling ([paper](https://arxiv.org/pdf/2506.22950)).  
-* 06/2025: Joined [Alibaba Qwen Team](https://huggingface.co/Qwen) for LLM Pretraining.  
-* 04/2025: Attended the [ICLR 2025](https://openreview.net/group?id=ICLR.cc/2025/Conference), Singapore.  
+* 09/2025: FlashDP is accepted by [NeurIPS 2025](https://neurips.cc/).
+
+* 07/2025: ZO2 is accepted by [COLM 2025](https://colmweb.org/index.html).
+
+* 07/2025: Released Infinite-Sampling ([paper](https://arxiv.org/pdf/2506.22950)).
+
+* 06/2025: Joined [Alibaba Qwen Team](https://huggingface.co/Qwen) for LLM Pretraining.
+
+* 04/2025: Attended the [ICLR 2025](https://openreview.net/group?id=ICLR.cc/2025/Conference), Singapore.
+
 * 03/2025: Released ZO2 ([paper](https://arxiv.org/abs/2503.12668), [code](https://github.com/liangyuwang/zo2)).
+
+</div>
 
 <div class="about-section projects-section">
 <h2 class="section-title">Projects</h2>
