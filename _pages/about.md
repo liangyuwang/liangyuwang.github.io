@@ -6,79 +6,116 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am Liangyu Wang, a Ph.D. candidate in Computer Science at King Abdullah University of Science and Technology ([KAUST](https://www.kaust.edu.sa/en/)), specializing in efficient training and inference for large language models (LLMs) through distributed computing and advanced GPU programming. 
+
+<div class="intro-text">
+I am Liangyu Wang, a Ph.D. candidate in Computer Science at King Abdullah University of Science and Technology (<a href="https://www.kaust.edu.sa/en/">KAUST</a>), specializing in efficient training and inference for large language models (LLMs) through distributed computing and advanced GPU programming. 
 Before that, I completed my master degree at The Chinese University of Hong Kong, focusing on multimodal machine learning.
 
-Currently, I am conducting LLM pretraining research at the [Alibaba Qwen Team](https://huggingface.co/Qwen).
+Currently, I am conducting LLM pretraining research at the <a href="https://huggingface.co/Qwen">Alibaba Qwen Team</a>.
 
-My research interests include optimizing distributed training and inference of LLMs, improving multi-threaded and multi-stream scheduling, and enhancing privacy-preserving methods for LLMs. I have interned as a LLM Pretraining Engineer at [Aramco](https://www.aramco.com/), working with large-scale GPU clusters to boost training throughput and model scalability. Currently, I am working on:
+My research interests include optimizing distributed training and inference of LLMs, improving multi-threaded and multi-stream scheduling, and enhancing privacy-preserving methods for LLMs. I have interned as a LLM Pretraining Engineer at <a href="https://www.aramco.com/">Aramco</a>, working with large-scale GPU clusters to boost training throughput and model scalability. Currently, I am working on:
 
-* Efficient reinforcement learning (RL) for LLMs reasoning
-* Distributed training and inference of LLMs
-* Efficient algorithm and infrastructure design for LLMs
-* Efficient privacy-preserving methods
+<ul>
+<li>Efficient reinforcement learning (RL) for LLMs reasoning</li>
+<li>Distributed training and inference of LLMs</li>
+<li>Efficient algorithm and infrastructure design for LLMs</li>
+<li>Efficient privacy-preserving methods</li>
+</ul>
+</div>
 
-News
-====
+<div class="about-section news-section">
+<h2 class="section-title">News</h2>
 
-* 09/2025: FlashDP is accepted by [NeurIPS 2025](https://neurips.cc/).
+<div class="news-item">09/2025: FlashDP is accepted by <a href="https://neurips.cc/">NeurIPS 2025</a>.</div>
 
-* 07/2025: ZO2 is accepted by [COLM 2025](https://colmweb.org/index.html).
+<div class="news-item">07/2025: ZO2 is accepted by <a href="https://colmweb.org/index.html">COLM 2025</a>.</div>
 
-* 07/2025: Released Infinite-Sampling ([paper](https://arxiv.org/pdf/2506.22950)).
+<div class="news-item">07/2025: Released Infinite-Sampling (<a href="https://arxiv.org/pdf/2506.22950">paper</a>).</div>
 
-* 06/2025: Joined [Alibaba Qwen Team](https://huggingface.co/Qwen) for LLM Pretraining.
+<div class="news-item">06/2025: Joined <a href="https://huggingface.co/Qwen">Alibaba Qwen Team</a> for LLM Pretraining.</div>
 
-* 04/2025: Attended the [ICLR 2025](https://openreview.net/group?id=ICLR.cc/2025/Conference), Singapore.
+<div class="news-item">04/2025: Attended the <a href="https://openreview.net/group?id=ICLR.cc/2025/Conference">ICLR 2025</a>, Singapore.</div>
 
-* 03/2025: Released ZO2 ([paper](https://arxiv.org/abs/2503.12668), [code](https://github.com/liangyuwang/zo2)).
+<div class="news-item">03/2025: Released ZO2 (<a href="https://arxiv.org/abs/2503.12668">paper</a>, <a href="https://github.com/liangyuwang/zo2">code</a>).</div>
+</div>
 
-Projects
-========
+<div class="about-section projects-section">
+<h2 class="section-title">Projects</h2>
 
-**ZO2 (Zeroth-Order Offloading): Full Parameter Fine-Tuning 175B LLMs with 18GB GPU Memory** [![GitHub stars](https://img.shields.io/github/stars/liangyuwang/zo2?style=social)](https://github.com/liangyuwang/zo2)
-- A framework that enables fine-tuning of extremely large language models (like OPT-175B) on limited GPU memory through zeroth-order optimization and CPU-GPU offloading.
+<div class="project-item">
+<div class="project-title"><strong>ZO2 (Zeroth-Order Offloading): Full Parameter Fine-Tuning 175B LLMs with 18GB GPU Memory</strong> <span class="github-stars"><a href="https://github.com/liangyuwang/zo2"><img src="https://img.shields.io/github/stars/liangyuwang/zo2?style=social" alt="GitHub stars"></a></span></div>
+<div class="project-description">A framework that enables fine-tuning of extremely large language models (like OPT-175B) on limited GPU memory through zeroth-order optimization and CPU-GPU offloading.</div>
+</div>
 
-**Tiny-LLM-Libs: Minimalistic Re-Implementations of Popular LLM Libraries**
-A collection of concise re-implementations of popular LLM training libraries, designed to help users understand the core functionalities:
-- **Tiny-FSDP** [![GitHub stars](https://img.shields.io/github/stars/liangyuwang/Tiny-FSDP?style=social)](https://github.com/liangyuwang/Tiny-FSDP)  
+<div class="project-item">
+<div class="project-title"><strong>Tiny-LLM-Libs: Minimalistic Re-Implementations of Popular LLM Libraries</strong></div>
+<div class="project-description">A collection of concise re-implementations of popular LLM training libraries, designed to help users understand the core functionalities:</div>
+
+<div class="tiny-lib-item">
+<strong>Tiny-FSDP</strong> <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-FSDP"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-FSDP?style=social" alt="GitHub stars"></a></span><br>
 A concise re-implementation of PyTorch FSDP for efficient model parallelism
-- **Tiny-DeepSpeed** [![GitHub stars](https://img.shields.io/github/stars/liangyuwang/Tiny-DeepSpeed?style=social)](https://github.com/liangyuwang/Tiny-DeepSpeed)  
+</div>
+
+<div class="tiny-lib-item">
+<strong>Tiny-DeepSpeed</strong> <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-DeepSpeed"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-DeepSpeed?style=social" alt="GitHub stars"></a></span><br>
 A minimalistic re-implementation of DeepSpeed's core functionalities for distributed training
-- **Tiny-Megatron** [![GitHub stars](https://img.shields.io/github/stars/liangyuwang/Tiny-Megatron?style=social)](https://github.com/liangyuwang/Tiny-Megatron)  
+</div>
+
+<div class="tiny-lib-item">
+<strong>Tiny-Megatron</strong> <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-Megatron"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-Megatron?style=social" alt="GitHub stars"></a></span><br>
 A simplified version of NVIDIA's Megatron-LM for model parallelism and pipeline parallelism
+</div>
+</div>
 
-Publications
-============
+<div class="project-item">
+<div class="project-title"><strong>Train Large Model from Scratch: A Minimal Pre-Training Stack for GPT-Style Language Models</strong> <span class="github-stars"><a href="https://github.com/liangyuwang/train-large-model-from-scratch"><img src="https://img.shields.io/github/stars/liangyuwang/train-large-model-from-scratch?style=social" alt="GitHub stars"></a></span></div>
+<div class="project-description">A hackable and developer-friendly framework featuring modular GPT architecture with FA/GQA/MoE support, distributed training with ZeRO-1, mixed precision training, and comprehensive profiling utilities for efficient large model pre-training.</div>
+</div>
+</div>
 
-* **ZO2: Scalable Zeroth-Order Fine-Tuning for Extremely Large Language Models with Limited GPU Memory**  
-  **Liangyu Wang**, Jie Ren, Hang Xu, Junxiao Wang, Huanyi Xie, David E. Keyes, and Di Wang  
-  COLM, 2025
-  [Paper](https://arxiv.org/abs/2503.12668) | [Code](https://github.com/liangyuwang/zo2)
+<div class="about-section publications-section">
+<h2 class="section-title">Publications</h2>
 
-* **FlashDP: Memory-Efficient and High-Throughput DP-SGD Training for Large Language Models**  
-  **Liangyu Wang**, Junxiao Wang, Jie Ren, Zihang Xiang, David E. Keyes, and Di Wang  
-  NeurIPS 2025
-  [Paper](https://arxiv.org/abs/2507.01154) | [Code](https://github.com/kaustpradalab/flashdp)
+<div class="publication-item">
+<strong>ZO2: Scalable Zeroth-Order Fine-Tuning for Extremely Large Language Models with Limited GPU Memory</strong><br>
+<strong>Liangyu Wang</strong>, Jie Ren, Hang Xu, Junxiao Wang, Huanyi Xie, David E. Keyes, and Di Wang<br>
+COLM, 2025<br>
+<a href="https://arxiv.org/abs/2503.12668">Paper</a> | <a href="https://github.com/liangyuwang/zo2">Code</a>
+</div>
 
-* **Infinite-Sampling: Efficient and Stable Grouped RL Training for Large Language Models**  
-  **Liangyu Wang**, Huanyi Xie, Xinhai Wang, Tianjin Huang, Mengdi Li, and Di Wang  
-  preprint arXiv:2506.22950, 2025 
-  [Paper](https://arxiv.org/pdf/2506.22950)
+<div class="publication-item">
+<strong>FlashDP: Memory-Efficient and High-Throughput DP-SGD Training for Large Language Models</strong><br>
+<strong>Liangyu Wang</strong>, Junxiao Wang, Jie Ren, Zihang Xiang, David E. Keyes, and Di Wang<br>
+NeurIPS 2025<br>
+<a href="https://arxiv.org/abs/2507.01154">Paper</a> | <a href="https://github.com/kaustpradalab/flashdp">Code</a>
+</div>
 
-* **DistZO2: : High-Throughput and Memory-Efficient Zeroth-Order Fine-tuning LLMs with Distributed Parallel Computing**  
-  **Liangyu Wang**, Huanyi Xie, and Di Wang
-  preprint arXiv:2507.03211, 2025 
-  [Paper](https://arxiv.org/pdf/2507.03211) | [Code](https://github.com/liangyuwang/zo2)
+<div class="publication-item">
+<strong>Infinite-Sampling: Efficient and Stable Grouped RL Training for Large Language Models</strong><br>
+<strong>Liangyu Wang</strong>, Huanyi Xie, Xinhai Wang, Tianjin Huang, Mengdi Li, and Di Wang<br>
+preprint arXiv:2506.22950, 2025<br>
+<a href="https://arxiv.org/pdf/2506.22950">Paper</a>
+</div>
 
-* **WiP: Towards Light Adaptation of Large Language Models For Personal Hardware**  
-  **Liangyu Wang**, Junxiao Wang and Di Wang  
-  Mobisys workshop 2024 
-  [Paper](https://dl.acm.org/doi/pdf/10.1145/3662006.3662065)
+<div class="publication-item">
+<strong>DistZO2: High-Throughput and Memory-Efficient Zeroth-Order Fine-tuning LLMs with Distributed Parallel Computing</strong><br>
+<strong>Liangyu Wang</strong>, Huanyi Xie, and Di Wang<br>
+preprint arXiv:2507.03211, 2025<br>
+<a href="https://arxiv.org/pdf/2507.03211">Paper</a> | <a href="https://github.com/liangyuwang/zo2">Code</a>
+</div>
 
-Reviewer Service
-================
+<div class="publication-item">
+<strong>WiP: Towards Light Adaptation of Large Language Models For Personal Hardware</strong><br>
+<strong>Liangyu Wang</strong>, Junxiao Wang and Di Wang<br>
+Mobisys workshop 2024<br>
+<a href="https://dl.acm.org/doi/pdf/10.1145/3662006.3662065">Paper</a>
+</div>
+</div>
 
-- Program Committee for [AAAI 2026](https://aaai.org/conference/aaai/aaai-26/)
-- Reviewer for [ICLR 2025](https://iclr.cc/)
-- Reviewer for [COLM 2025](https://colmweb.org/)
+<div class="about-section reviewer-section">
+<h2 class="section-title">Reviewer Service</h2>
+
+<div class="news-item">Program Committee for <a href="https://aaai.org/conference/aaai/aaai-26/">AAAI 2026</a></div>
+<div class="news-item">Reviewer for <a href="https://iclr.cc/">ICLR 2025</a></div>
+<div class="news-item">Reviewer for <a href="https://colmweb.org/">COLM 2025</a></div>
+</div>
