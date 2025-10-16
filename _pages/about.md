@@ -111,7 +111,9 @@ Mobisys workshop 2024<br>
 <div class="about-section reviewer-section">
 <h2 class="section-title">Reviewer Service</h2>
 
-<div class="news-item">Program Committee for <a href="https://aaai.org/conference/aaai/aaai-26/">AAAI 2026</a></div>
-<div class="news-item">Reviewer for <a href="https://iclr.cc/">ICLR 2025</a></div>
-<div class="news-item">Reviewer for <a href="https://colmweb.org/">COLM 2025</a></div>
+<ul>
+<li>Program Committee for <a href="https://aaai.org/conference/aaai/aaai-26/">AAAI 2026</a></li>
+<li>Reviewer for <a href="https://iclr.cc/">ICLR 2025</a></li>
+<li>Reviewer for <a href="https://colmweb.org/">COLM 2025</a></li>
+</ul>
 </div>
