@@ -26,12 +26,13 @@ My research interests include optimizing distributed training and inference of L
 <div class="about-section news-section">
 <h2 class="section-title">News</h2>
 <ul>
+<li>02/2026: Released Canzona (<a href="https://arxiv.org/pdf/2602.06079">Arxiv</a>).</li>
 <li>09/2025: FlashDP is accepted by <a href="https://neurips.cc/">NeurIPS 2025</a>.</li>
 <li>07/2025: ZO2 is accepted by <a href="https://colmweb.org/index.html">COLM 2025</a>.</li>
-<li>07/2025: Released Infinite-Sampling (<a href="https://arxiv.org/pdf/2506.22950">paper</a>).</li>
+<li>07/2025: Released Infinite-Sampling (<a href="https://arxiv.org/pdf/2506.22950">Arxiv</a>).</li>
 <li>06/2025: Joined <a href="https://huggingface.co/Qwen">Alibaba Qwen Team</a> for LLM Pretraining.</li>
 <li>04/2025: Attended the <a href="https://openreview.net/group?id=ICLR.cc/2025/Conference">ICLR 2025</a>, Singapore.</li>
-<li>03/2025: Released ZO2 (<a href="https://arxiv.org/abs/2503.12668">paper</a>, <a href="https://github.com/liangyuwang/zo2">code</a>).</li>
+<li>03/2025: Released ZO2 (<a href="https://arxiv.org/abs/2503.12668">Arxiv</a>, <a href="https://github.com/liangyuwang/zo2">code</a>).</li>
 </ul>
 </div>
 
@@ -73,30 +74,37 @@ A simplified version of NVIDIA's Megatron-LM for model parallelism and pipeline 
 <h2 class="section-title">Publications</h2>
 
 <div class="publication-item">
+<strong>Canzona: A Unified, Asynchronous, and Load-Balanced Framework for Distributed Matrix-based Optimizers</strong><br>
+<strong>Liangyu Wang</strong>, Siqi Zhang, Junjie Wang, Yiming Dong, Bo Zheng, Zihan Qiu, Shengkun Tang, Di Wang, Rui Men, and Dayiheng Liu<br>
+arXiv:2602.06079, 2026<br>
+<a href="https://arxiv.org/pdf/2602.06079">Paper</a>
+</div>
+
+<div class="publication-item">
 <strong>ZO2: Scalable Zeroth-Order Fine-Tuning for Extremely Large Language Models with Limited GPU Memory</strong><br>
 <strong>Liangyu Wang</strong>, Jie Ren, Hang Xu, Junxiao Wang, Huanyi Xie, David E. Keyes, and Di Wang<br>
 COLM, 2025<br>
-<a href="https://arxiv.org/abs/2503.12668">Paper</a> | <a href="https://github.com/liangyuwang/zo2">Code</a>
+<a href="https://arxiv.org/pdf/2503.12668">Paper</a> | <a href="https://github.com/liangyuwang/zo2">Code</a>
 </div>
 
 <div class="publication-item">
 <strong>FlashDP: Memory-Efficient and High-Throughput DP-SGD Training for Large Language Models</strong><br>
 <strong>Liangyu Wang</strong>, Junxiao Wang, Jie Ren, Zihang Xiang, David E. Keyes, and Di Wang<br>
 NeurIPS 2025<br>
-<a href="https://arxiv.org/abs/2507.01154">Paper</a> | <a href="https://github.com/kaustpradalab/flashdp">Code</a>
+<a href="https://arxiv.org/pdf/2507.01154">Paper</a> | <a href="https://github.com/kaustpradalab/flashdp">Code</a>
 </div>
 
 <div class="publication-item">
 <strong>Infinite-Sampling: Efficient and Stable Grouped RL Training for Large Language Models</strong><br>
 <strong>Liangyu Wang</strong>, Huanyi Xie, Xinhai Wang, Tianjin Huang, Mengdi Li, and Di Wang<br>
-preprint arXiv:2506.22950, 2025<br>
+arXiv:2506.22950, 2025<br>
 <a href="https://arxiv.org/pdf/2506.22950">Paper</a>
 </div>
 
 <div class="publication-item">
 <strong>DistZO2: High-Throughput and Memory-Efficient Zeroth-Order Fine-tuning LLMs with Distributed Parallel Computing</strong><br>
 <strong>Liangyu Wang</strong>, Huanyi Xie, and Di Wang<br>
-preprint arXiv:2507.03211, 2025<br>
+arXiv:2507.03211, 2025<br>
 <a href="https://arxiv.org/pdf/2507.03211">Paper</a> | <a href="https://github.com/liangyuwang/zo2">Code</a>
 </div>
 
@@ -112,6 +120,11 @@ Mobisys workshop 2024<br>
 <h2 class="section-title">Reviewer Service</h2>
 
 <ul>
+<li>Reviewer for <a href="https://colmweb.org/">COLM 2026</a></li>
+<li>Reviewer for <a href="https://eccv.ecva.net/">ECCV 2026</a></li>
+<li>Reviewer for <a href="https://icml.cc/">ICML 2026</a></li>
+<li>Reviewer for <a href="https://2026.aclweb.org/">ACL 2026</a></li>
+<li>Reviewer for <a href="https://cvpr.thecvf.com/">CVPR 2026</a></li>
 <li>Program Committee for <a href="https://aaai.org/conference/aaai/aaai-26/">AAAI 2026</a></li>
 <li>Reviewer for <a href="https://iclr.cc/">ICLR 2025</a></li>
 <li>Reviewer for <a href="https://colmweb.org/">COLM 2025</a></li>
