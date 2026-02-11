@@ -45,32 +45,44 @@ My research interests include optimizing distributed training and inference of L
 
 <div class="project-item">
 <div class="project-title"><strong>Tiny-LLM-Libs: Minimalistic Re-Implementations of Popular LLM Libraries</strong></div>
-<div class="project-description">Tiny, readable codebases for understanding distributed LLM training systems:</div>
+<div class="project-description">Minimal replicas that map major distributed-training stacks to tiny, readable implementations.</div>
 
-<div class="tiny-lib-grid">
-  <div class="tiny-lib-item">
-    <div class="tiny-lib-head">
-      <strong>Tiny-FSDP</strong>
-      <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-FSDP"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-FSDP?style=social" alt="GitHub stars"></a></span>
-    </div>
-    <div class="tiny-lib-desc">A compact PyTorch FSDP implementation for sharding and memory-efficient training.</div>
-  </div>
-
-  <div class="tiny-lib-item">
-    <div class="tiny-lib-head">
-      <strong>Tiny-DeepSpeed</strong>
-      <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-DeepSpeed"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-DeepSpeed?style=social" alt="GitHub stars"></a></span>
-    </div>
-    <div class="tiny-lib-desc">A minimal DeepSpeed-style engine that highlights core distributed training mechanics.</div>
-  </div>
-
-  <div class="tiny-lib-item">
-    <div class="tiny-lib-head">
-      <strong>Tiny-Megatron</strong>
-      <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-Megatron"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-Megatron?style=social" alt="GitHub stars"></a></span>
-    </div>
-    <div class="tiny-lib-desc">A streamlined Megatron-LM style stack for tensor and pipeline parallel training.</div>
-  </div>
+<div class="tiny-compare-wrap">
+  <table class="tiny-compare-table">
+    <thead>
+      <tr>
+        <th>Original Stack</th>
+        <th>Tiny Replica</th>
+        <th>What You Learn Fast</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/pytorch/pytorch">PyTorch FSDP</a></td>
+        <td>
+          <a href="https://github.com/liangyuwang/Tiny-FSDP">Tiny-FSDP</a>
+          <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-FSDP"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-FSDP?style=social" alt="GitHub stars"></a></span>
+        </td>
+        <td>Parameter sharding, all-gather/reduce-scatter flow, memory-saving training path.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/microsoft/DeepSpeed">DeepSpeed</a></td>
+        <td>
+          <a href="https://github.com/liangyuwang/Tiny-DeepSpeed">Tiny-DeepSpeed</a>
+          <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-DeepSpeed"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-DeepSpeed?style=social" alt="GitHub stars"></a></span>
+        </td>
+        <td>Engine abstraction, optimizer/state partition ideas, and training-loop orchestration.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/NVIDIA/Megatron-LM">Megatron-LM</a></td>
+        <td>
+          <a href="https://github.com/liangyuwang/Tiny-Megatron">Tiny-Megatron</a>
+          <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-Megatron"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-Megatron?style=social" alt="GitHub stars"></a></span>
+        </td>
+        <td>Tensor/pipeline parallel principles and the end-to-end parallel training anatomy.</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 </div>
 
