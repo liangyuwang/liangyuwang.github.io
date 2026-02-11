@@ -31,7 +31,6 @@ My research interests include optimizing distributed training and inference of L
 <li>07/2025: ZO2 is accepted by <a href="https://colmweb.org/index.html">COLM 2025</a>.</li>
 <li>07/2025: Released Infinite-Sampling (<a href="https://arxiv.org/pdf/2506.22950">Arxiv</a>).</li>
 <li>06/2025: Joined <a href="https://huggingface.co/Qwen">Alibaba Qwen Team</a> for LLM Pretraining.</li>
-<li>04/2025: Attended the <a href="https://openreview.net/group?id=ICLR.cc/2025/Conference">ICLR 2025</a>, Singapore.</li>
 <li>03/2025: Released ZO2 (<a href="https://arxiv.org/abs/2503.12668">Arxiv</a>, <a href="https://github.com/liangyuwang/zo2">code</a>).</li>
 </ul>
 </div>
@@ -46,21 +45,32 @@ My research interests include optimizing distributed training and inference of L
 
 <div class="project-item">
 <div class="project-title"><strong>Tiny-LLM-Libs: Minimalistic Re-Implementations of Popular LLM Libraries</strong></div>
-<div class="project-description">A collection of concise re-implementations of popular LLM training libraries, designed to help users understand the core functionalities:</div>
+<div class="project-description">Tiny, readable codebases for understanding distributed LLM training systems:</div>
 
-<div class="tiny-lib-item">
-<strong>Tiny-FSDP</strong> <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-FSDP"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-FSDP?style=social" alt="GitHub stars"></a></span><br>
-A concise re-implementation of PyTorch FSDP for efficient model parallelism
-</div>
+<div class="tiny-lib-grid">
+  <div class="tiny-lib-item">
+    <div class="tiny-lib-head">
+      <strong>Tiny-FSDP</strong>
+      <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-FSDP"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-FSDP?style=social" alt="GitHub stars"></a></span>
+    </div>
+    <div class="tiny-lib-desc">A compact PyTorch FSDP implementation for sharding and memory-efficient training.</div>
+  </div>
 
-<div class="tiny-lib-item">
-<strong>Tiny-DeepSpeed</strong> <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-DeepSpeed"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-DeepSpeed?style=social" alt="GitHub stars"></a></span><br>
-A minimalistic re-implementation of DeepSpeed's core functionalities for distributed training
-</div>
+  <div class="tiny-lib-item">
+    <div class="tiny-lib-head">
+      <strong>Tiny-DeepSpeed</strong>
+      <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-DeepSpeed"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-DeepSpeed?style=social" alt="GitHub stars"></a></span>
+    </div>
+    <div class="tiny-lib-desc">A minimal DeepSpeed-style engine that highlights core distributed training mechanics.</div>
+  </div>
 
-<div class="tiny-lib-item">
-<strong>Tiny-Megatron</strong> <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-Megatron"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-Megatron?style=social" alt="GitHub stars"></a></span><br>
-A simplified version of NVIDIA's Megatron-LM for model parallelism and pipeline parallelism
+  <div class="tiny-lib-item">
+    <div class="tiny-lib-head">
+      <strong>Tiny-Megatron</strong>
+      <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-Megatron"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-Megatron?style=social" alt="GitHub stars"></a></span>
+    </div>
+    <div class="tiny-lib-desc">A streamlined Megatron-LM style stack for tensor and pipeline parallel training.</div>
+  </div>
 </div>
 </div>
 
