@@ -53,7 +53,7 @@ My research interests include optimizing distributed training and inference of L
       <tr>
         <th>Original Stack</th>
         <th>Tiny Replica</th>
-        <th>What You Learn Fast</th>
+        <th>Description</th>
       </tr>
     </thead>
     <tbody>
@@ -63,7 +63,7 @@ My research interests include optimizing distributed training and inference of L
           <a href="https://github.com/liangyuwang/Tiny-FSDP">Tiny-FSDP</a>
           <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-FSDP"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-FSDP?style=social" alt="GitHub stars"></a></span>
         </td>
-        <td>Parameter sharding, all-gather/reduce-scatter flow, memory-saving training path.</td>
+        <td>Side-by-side implementations of DDP, ZeRO-3, and FSDP, including their distinct communication patterns and memory trade-offs.</td>
       </tr>
       <tr>
         <td><a href="https://github.com/microsoft/DeepSpeed">DeepSpeed</a></td>
@@ -71,7 +71,7 @@ My research interests include optimizing distributed training and inference of L
           <a href="https://github.com/liangyuwang/Tiny-DeepSpeed">Tiny-DeepSpeed</a>
           <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-DeepSpeed"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-DeepSpeed?style=social" alt="GitHub stars"></a></span>
         </td>
-        <td>Engine abstraction, optimizer/state partition ideas, and training-loop orchestration.</td>
+        <td>A minimal DeepSpeed-style training stack with DDP + ZeRO-1/2/3, plus meta initialization, rank mapping, and compute-communication overlap.</td>
       </tr>
       <tr>
         <td><a href="https://github.com/NVIDIA/Megatron-LM">Megatron-LM</a></td>
@@ -79,7 +79,7 @@ My research interests include optimizing distributed training and inference of L
           <a href="https://github.com/liangyuwang/Tiny-Megatron">Tiny-Megatron</a>
           <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-Megatron"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-Megatron?style=social" alt="GitHub stars"></a></span>
         </td>
-        <td>Tensor/pipeline parallel principles and the end-to-end parallel training anatomy.</td>
+        <td>Educational TP, DP, and 2D TP+DP hybrid training with custom modules and a runtime auto-tuner for kernel selection.</td>
       </tr>
     </tbody>
   </table>
