@@ -24,7 +24,7 @@ My research interests include optimizing distributed training and inference of L
 </div>
 
 <div class="about-section news-section">
-<h2 class="section-title">News</h2>
+<h2 class="section-title">🔥 News</h2>
 <ul>
 <li>02/2026: Released Canzona (<a href="https://arxiv.org/pdf/2602.06079">Arxiv</a>).</li>
 <li>09/2025: FlashDP is accepted by <a href="https://neurips.cc/">NeurIPS 2025</a>.</li>
@@ -36,7 +36,7 @@ My research interests include optimizing distributed training and inference of L
 </div>
 
 <div class="about-section projects-section">
-<h2 class="section-title">Projects</h2>
+<h2 class="section-title">☃️ Projects</h2>
 
 <div class="project-item">
 <div class="project-title"><strong>ZO2 (Zeroth-Order Offloading): Full Parameter Fine-Tuning 175B LLMs with 18GB GPU Memory</strong> <span class="github-stars"><a href="https://github.com/liangyuwang/zo2"><img src="https://img.shields.io/github/stars/liangyuwang/zo2?style=social" alt="GitHub stars"></a></span></div>
@@ -93,7 +93,7 @@ My research interests include optimizing distributed training and inference of L
 </div>
 
 <div class="about-section publications-section">
-<h2 class="section-title">Publications</h2>
+<h2 class="section-title">📝 Publications</h2>
 
 <div class="publication-item">
 <strong>Canzona: A Unified, Asynchronous, and Load-Balanced Framework for Distributed Matrix-based Optimizers</strong><br>
