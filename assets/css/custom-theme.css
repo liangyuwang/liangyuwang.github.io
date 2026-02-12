@@ -250,40 +250,52 @@ li {
   white-space: nowrap;
 }
 
-.venue-tag {
+.page__content .venue,
+.archive .venue,
+h3 .venue {
   display: inline-block;
-  font-size: 0.74em;
-  font-weight: 700;
+  font-size: 0.72em;
+  font-style: italic;
+  font-weight: 600;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
-  padding: 0.12em 0.48em;
+  text-transform: none;
+  padding: 0.08em 0.46em;
   border-radius: 999px;
-  margin-right: 0.4rem;
+  margin-right: 0.42rem;
   vertical-align: middle;
+  line-height: 1.2;
 }
 
-.venue-preprint {
-  color: #7a3d00;
-  background: #fff1dd;
-  border: 1px solid #f6d4a8;
+.page__content .venue-preprint,
+.archive .venue-preprint,
+h3 .venue-preprint {
+  color: #8a3f00 !important;
+  background: #fff1de;
+  border: 1px solid #f4d1a5;
 }
 
-.venue-conf {
-  color: #0f3f95;
-  background: #eaf1ff;
-  border: 1px solid #c9dcff;
+.page__content .venue-conf,
+.archive .venue-conf,
+h3 .venue-conf {
+  color: #164a9f !important;
+  background: #e9f1ff;
+  border: 1px solid #c8dbff;
 }
 
-.venue-workshop {
-  color: #00524d;
-  background: #e8fbf8;
-  border: 1px solid #b7ebe3;
+.page__content .venue-workshop,
+.archive .venue-workshop,
+h3 .venue-workshop {
+  color: #0a5f57 !important;
+  background: #e7fbf7;
+  border: 1px solid #b7ebe2;
 }
 
-.venue-journal {
-  color: #5c2c84;
-  background: #f4ebff;
-  border: 1px solid #ddc6ff;
+.page__content .venue-journal,
+.archive .venue-journal,
+h3 .venue-journal {
+  color: #5d2f85 !important;
+  background: #f4ecff;
+  border: 1px solid #dcc6ff;
 }
 
 ul {
