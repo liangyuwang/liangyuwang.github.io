@@ -142,6 +142,6 @@ Mobisys workshop 2024<br>
 <h2 class="section-title">📋 Academic Service</h2>
 
 <ul>
-<li>Conference: <a href="https://colmweb.org/">COLM 2026</a>, <a href="https://eccv.ecva.net/">ECCV 2026</a>, <a href="https://icml.cc/">ICML 2026</a><, <a href="https://2026.aclweb.org/">ACL 2026</a>, <a href="https://cvpr.thecvf.com/">CVPR 2026</a>, <a href="https://aaai.org/conference/aaai/aaai-26/">AAAI 2026</a>, <a href="https://iclr.cc/">ICLR 2025</a>, <a href="https://colmweb.org/">COLM 2025</a></li>
+<li>Conference: <a href="https://colmweb.org/">COLM 2026</a>, <a href="https://eccv.ecva.net/">ECCV 2026</a>, <a href="https://icml.cc/">ICML 2026</a>, <a href="https://2026.aclweb.org/">ACL 2026</a>, <a href="https://cvpr.thecvf.com/">CVPR 2026</a>, <a href="https://aaai.org/conference/aaai/aaai-26/">AAAI 2026</a>, <a href="https://iclr.cc/">ICLR 2025</a>, <a href="https://colmweb.org/">COLM 2025</a></li>
 </ul>
 </div>
