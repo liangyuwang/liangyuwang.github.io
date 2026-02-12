@@ -138,6 +138,11 @@ li {
   margin-bottom: 0.25rem;
 }
 
+.author__urls:before,
+.author__urls:after {
+  display: none;
+}
+
 .social-icons .fa,
 .social-icons .fas,
 .social-icons .fab,
@@ -250,6 +255,27 @@ li {
 @media (max-width: 1024px) {
   #main {
     padding: 0 1rem;
+  }
+
+  .sidebar {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .author__urls-wrapper {
+    display: block;
+    width: 100%;
+  }
+
+  .author__urls {
+    position: static;
+    right: auto;
+    margin-top: 0.35rem;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    z-index: auto;
   }
 
   .page {
