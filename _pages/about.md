@@ -129,13 +129,6 @@ arXiv:2506.22950, 2025<br>
 arXiv:2507.03211, 2025<br>
 <a href="https://arxiv.org/pdf/2507.03211">Paper</a> | <a href="https://github.com/liangyuwang/zo2">Code</a>
 </div>
-
-<div class="publication-item">
-<strong>WiP: Towards Light Adaptation of Large Language Models For Personal Hardware</strong><br>
-<strong>Liangyu Wang</strong>, Junxiao Wang and Di Wang<br>
-Mobisys workshop 2024<br>
-<a href="https://dl.acm.org/doi/pdf/10.1145/3662006.3662065">Paper</a>
-</div>
 </div>
 
 <div class="about-section reviewer-section">
