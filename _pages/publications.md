@@ -9,11 +9,39 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 
 ---
 
+## 2026
+
+### Canzona: A Unified, Asynchronous, and Load-Balanced Framework for Distributed Matrix-based Optimizers
+
+[[paper](https://arxiv.org/pdf/2602.06079)]
+
+<details>
+<summary><strong>Abstract</strong></summary>
+The scaling of Large Language Models (LLMs) drives interest in matrix-based optimizers (e.g., Shampoo, Muon, SOAP) for their convergence efficiency; yet their requirement for holistic updates conflicts with the tensor fragmentation in distributed frameworks like Megatron. Existing solutions are suboptimal: synchronous approaches suffer from computational redundancy, while layer-wise partitioning fails to reconcile this conflict without violating the geometric constraints of efficient communication primitives. To bridge this gap, we propose Canzona, a Unified, Asynchronous, and Load-Balanced framework that decouples logical optimizer assignment from physical parameter distribution. For Data Parallelism, we introduce an alpha-Balanced Static Partitioning strategy that respects atomicity while neutralizing the load imbalance. For Tensor Parallelism, we design an Asynchronous Compute pipeline utilizing Micro-Group Scheduling to batch fragmented updates and hide reconstruction overhead. Extensive evaluations on the Qwen3 model family (up to 32B parameters) on 256 GPUs demonstrate that our approach preserves the efficiency of established parallel architectures, achieving a 1.57x speedup in end-to-end iteration time and reducing optimizer step latency by 5.8x compared to the baseline.
+</details>
+
+**Authors:** Liangyu Wang, Siqi Zhang, Junjie Wang, Yiming Dong, Bo Zheng, Zihan Qiu, Shengkun Tang, Di Wang, Rui Men, and Dayiheng Liu  
+**Published in:** arXiv preprint
+
+### Predicting LLM Output Length via Entropy-Guided Representations
+
+[[paper](https://openreview.net/pdf?id=3loQDtveWI)]
+
+<details>
+<summary><strong>Abstract</strong></summary>
+The long-tailed distribution of sequence lengths in LLM serving and reinforcement learning (RL) sampling causes significant computational waste due to excessive padding in batched inference. Existing methods rely on auxiliary models for static length prediction, but they incur high overhead, generalize poorly, and fail in stochastic "one-to-many" sampling scenarios. We introduce a lightweight framework that reuses the main model's internal hidden states for efficient length prediction. Our framework features two core components: (1) Entropy-Guided Token Pooling (EGTP), which uses on-the-fly activations and token entropy for highly accurate static prediction with negligible cost, and (2) Progressive Length Prediction (PLP), which dynamically estimates the remaining length at each decoding step to handle stochastic generation. To validate our approach, we build and release ForeLen, a comprehensive benchmark with long-sequence, Chain-of-Thought, and RL data. On ForeLen, EGTP achieves state-of-the-art accuracy, reducing MAE by 29.16% over the best baseline. Integrating our methods with a length-aware scheduler yields significant end-to-end throughput gains. Our work provides a new technical and evaluation baseline for efficient LLM inference.
+</details>
+
+**Authors:** Huanyi Xie, Yubin Chen, Liangyu Wang, Lijie Hu, and Di Wang 
+**Published in:** ICLR 2026
+
+---
+
 ## 2025
 
 ### Attributing Data for Sharpness-Aware Minimization
 
-[[paper](https://arxiv.org/abs/2507.04059)]
+[[paper](https://arxiv.org/pdf/2507.04059)]
 
 <details>
 <summary><strong>Abstract</strong></summary>
@@ -35,9 +63,9 @@ Fine-tuning large language models (LLMs) remains resource-intensive due to their
 **Authors:** Liangyu Wang, Huanyi Xie, and Di Wang  
 **Published in:** arXiv preprint
 
-### FlashDP: Memory-Efficient and High-Throughput DP-SGD Training for Large Language Models
+### FlashDP: Private Training Large Language Models with Efficient DP-SGD
 
-[[paper](https://openreview.net/pdf?id=6izXTVVzoI)] [[!code](https://github.com/kaustpradalab/flashdp)]
+[[paper](https://openreview.net/pdf?id=b6SWqFEOSF)] [[!code](https://github.com/kaustpradalab/flashdp)]
 
 <details>
 <summary><strong>Abstract</strong></summary>
@@ -45,7 +73,7 @@ As large language models (LLMs) increasingly underpin technological advancements
 </details>
 
 **Authors:** Liangyu Wang, Junxiao Wang, Jie Ren, Zihang Xiang, David E. Keyes, and Di Wang  
-**Published in:** NeurIPS workshop 2024
+**Published in:** NeurIPS 2025
 
 ### Infinite-Sampling: Efficient and Stable Grouped RL Training for Large Language Models
 
@@ -61,7 +89,7 @@ Group-based reinforcement learning algorithms such as Group Reward Policy Optimi
 
 ### ZO2: Scalable Zeroth-Order Fine-Tuning for Extremely Large Language Models with Limited GPU Memory
 
-[[paper](https://arxiv.org/abs/2503.12668)] [[code](https://github.com/liangyuwang/zo2)]
+[[paper](https://openreview.net/pdf?id=s0p9xpORgP)] [[code](https://github.com/liangyuwang/zo2)]
 
 <details>
 <summary><strong>Abstract</strong></summary>
