@@ -130,8 +130,15 @@ li {
 
 .author__urls {
   display: block !important;
-  margin-top: 0.65rem;
+  position: static !important;
+  right: auto !important;
+  margin-top: 0.35rem;
+  padding: 0;
   padding-left: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  z-index: auto;
 }
 
 .author__urls li {
