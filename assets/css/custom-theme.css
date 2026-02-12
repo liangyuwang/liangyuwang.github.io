@@ -250,6 +250,42 @@ li {
   white-space: nowrap;
 }
 
+.venue-tag {
+  display: inline-block;
+  font-size: 0.74em;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  padding: 0.12em 0.48em;
+  border-radius: 999px;
+  margin-right: 0.4rem;
+  vertical-align: middle;
+}
+
+.venue-preprint {
+  color: #7a3d00;
+  background: #fff1dd;
+  border: 1px solid #f6d4a8;
+}
+
+.venue-conf {
+  color: #0f3f95;
+  background: #eaf1ff;
+  border: 1px solid #c9dcff;
+}
+
+.venue-workshop {
+  color: #00524d;
+  background: #e8fbf8;
+  border: 1px solid #b7ebe3;
+}
+
+.venue-journal {
+  color: #5c2c84;
+  background: #f4ebff;
+  border: 1px solid #ddc6ff;
+}
+
 ul {
   margin-top: 0.45rem;
   margin-bottom: 0.9rem;
