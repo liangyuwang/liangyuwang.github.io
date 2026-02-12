@@ -61,6 +61,14 @@ li {
   padding-right: 0;
 }
 
+@media (min-width: 1024px) {
+  .page {
+    width: calc(100% - 275px);
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+
 .page__content p,
 .page__content li {
   font-size: 1.02rem;
