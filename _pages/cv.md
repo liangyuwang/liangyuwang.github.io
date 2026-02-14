@@ -28,9 +28,9 @@ Work experience
   <!-- * Supervisor: [Salma Alsinan](https://www.linkedin.com/in/salma-alsinan/overlay/about-this-profile/) -->
 
 * Fall 2022: Research Assistant
-  * King Abdullah University of Science and Technology
+  * [King Abdullah University of Science and Technology](https://www.kaust.edu.sa/)
   * Duties included: Distributed Federated Learning
-  * Supervisor: [Di Wang](https://shao3wangdi.github.io/)
+  <!-- * Supervisor: [Di Wang](https://shao3wangdi.github.io/) -->
 
 Skills
 ======
