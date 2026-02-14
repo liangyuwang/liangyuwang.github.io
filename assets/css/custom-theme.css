@@ -218,7 +218,6 @@ li {
   width: 100%;
   border-collapse: collapse;
   min-width: 760px;
-  table-layout: fixed;
 }
 
 .tiny-compare-table th,
@@ -254,7 +253,6 @@ li {
 
 .tiny-compare-table td:first-child {
   white-space: nowrap;
-  width: 18%;
 }
 
 .tiny-compare-table td:first-child a,
@@ -264,7 +262,6 @@ li {
 
 .tiny-compare-table td:nth-child(2) {
   white-space: normal;
-  width: 24%;
 }
 
 .tiny-compare-table td:nth-child(2) a {
@@ -273,6 +270,14 @@ li {
 
 .tiny-compare-table td:nth-child(2) > a {
   display: block;
+}
+
+.tiny-compare-table th:nth-child(1) {
+  width: 16%;
+}
+
+.tiny-compare-table th:nth-child(2) {
+  width: 23%;
 }
 
 .tiny-compare-table tbody tr:last-child td {
