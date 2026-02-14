@@ -206,11 +206,12 @@ li {
 }
 
 .tiny-compare-wrap {
-  margin-top: 0.65rem;
-  border: 1px solid #e6e9f0;
-  border-radius: 10px;
+  margin-top: 0.72rem;
+  border: 1px solid #dfe5ef;
+  border-radius: 12px;
   overflow-x: auto;
-  background: #fff;
+  background: linear-gradient(180deg, #ffffff 0%, #fbfcff 100%);
+  box-shadow: 0 8px 24px rgba(27, 52, 96, 0.06);
 }
 
 .tiny-compare-table {
@@ -223,22 +224,41 @@ li {
 .tiny-compare-table td {
   text-align: left;
   vertical-align: top;
-  padding: 0.58rem 0.72rem;
-  border-bottom: 1px solid #eef1f6;
-  line-height: 1.55;
+  padding: 0.62rem 0.78rem;
+  border-bottom: 1px solid #edf1f7;
+  line-height: 1.58;
 }
 
 .tiny-compare-table th {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: #2a3348;
-  background: #f8faff;
+  font-size: 0.86rem;
+  font-weight: 700;
+  color: #24314a;
+  background: linear-gradient(180deg, #f7faff 0%, #f2f7ff 100%);
+  border-bottom: 1px solid #dfe8f8;
   white-space: nowrap;
 }
 
 .tiny-compare-table td {
-  color: #2f2f2f;
+  color: #2d2d2d;
   font-size: 0.94rem;
+}
+
+.tiny-compare-table tbody tr:nth-child(2n) td {
+  background: rgba(60, 115, 210, 0.028);
+}
+
+.tiny-compare-table tbody tr:hover td {
+  background: rgba(62, 117, 214, 0.07);
+}
+
+.tiny-compare-table td:first-child,
+.tiny-compare-table td:nth-child(2) {
+  white-space: nowrap;
+}
+
+.tiny-compare-table td:first-child a,
+.tiny-compare-table td:nth-child(2) > a {
+  font-weight: 600;
 }
 
 .tiny-compare-table tbody tr:last-child td {
@@ -246,8 +266,13 @@ li {
 }
 
 .tiny-compare-table td .github-stars {
-  margin-left: 0.35rem;
+  margin-left: 0.42rem;
   white-space: nowrap;
+  vertical-align: middle;
+}
+
+.tiny-compare-table td .github-stars img {
+  transform: translateY(1px);
 }
 
 .page__content .venue,
@@ -337,5 +362,57 @@ li {
 
   .page {
     width: 100%;
+  }
+}
+
+@media (max-width: 760px) {
+  .tiny-compare-wrap {
+    border: 0;
+    box-shadow: none;
+    background: transparent;
+    overflow: visible;
+  }
+
+  .tiny-compare-table {
+    min-width: 0;
+    border-collapse: separate;
+    border-spacing: 0 0.55rem;
+  }
+
+  .tiny-compare-table thead {
+    display: none;
+  }
+
+  .tiny-compare-table tbody,
+  .tiny-compare-table tr,
+  .tiny-compare-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .tiny-compare-table tr {
+    border: 1px solid #e3e9f3;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 6px 14px rgba(26, 47, 86, 0.05);
+    padding: 0.2rem 0;
+  }
+
+  .tiny-compare-table td {
+    border-bottom: 0;
+    white-space: normal !important;
+    padding: 0.34rem 0.75rem 0.38rem;
+    font-size: 0.93rem;
+  }
+
+  .tiny-compare-table td::before {
+    content: attr(data-label);
+    display: block;
+    font-size: 0.74rem;
+    font-weight: 700;
+    color: #5b6680;
+    margin-bottom: 0.08rem;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
   }
 }
