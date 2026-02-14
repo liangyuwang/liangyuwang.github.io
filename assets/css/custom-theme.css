@@ -454,6 +454,11 @@ li {
   line-height: 1.38;
 }
 
+.proj-title .github-stars {
+  margin-left: 0.35rem;
+  white-space: nowrap;
+}
+
 .proj-desc {
   margin: 0;
   color: #34435a;
@@ -486,6 +491,10 @@ li {
 }
 
 .tiny-mini-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.45rem;
   margin-bottom: 0.2rem;
   font-size: 0.94rem;
 }
