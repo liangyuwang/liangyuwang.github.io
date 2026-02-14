@@ -104,14 +104,12 @@ My research interests include optimizing distributed training and inference of L
 <div class="publication-item">
 <strong><em class="venue venue-conf">COLM 2025</em> ZO2: Scalable Zeroth-Order Fine-Tuning for Extremely Large Language Models with Limited GPU Memory</strong><br>
 <strong>Liangyu Wang</strong>, Jie Ren, Hang Xu, Junxiao Wang, Huanyi Xie, David E. Keyes, and Di Wang<br>
-COLM, 2025<br>
 <a href="https://arxiv.org/pdf/2503.12668">Paper</a> | <a href="https://github.com/liangyuwang/zo2">Code</a>
 </div>
 
 <div class="publication-item">
 <strong><em class="venue venue-conf">NeurIPS 2025</em> FlashDP: Memory-Efficient and High-Throughput DP-SGD Training for Large Language Models</strong><br>
 <strong>Liangyu Wang</strong>, Junxiao Wang, Jie Ren, Zihang Xiang, David E. Keyes, and Di Wang<br>
-NeurIPS 2025<br>
 <a href="https://arxiv.org/pdf/2507.01154">Paper</a> | <a href="https://github.com/kaustpradalab/flashdp">Code</a>
 </div>
 
