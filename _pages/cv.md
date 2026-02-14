@@ -19,11 +19,11 @@ Work experience
 ===============
 
 * July 2025 - Present: Research Intern
-  * Alibaba Qwen Team
+  * [Alibaba Qwen Team](https://qwen.ai/home)
   * Duties includes: Designed and implemented Canzona, a unified, asynchronous, and load-balanced framework to enable distributed matrix-based optimizers (e.g., Muon / Shampoo / SOAP) in large-scale LLM pretraining under Megatron with ZeRO-1 and Tensor Parallelism.
 
 * Summer 2024: LLM Pretraining Engineer (Intern)
-  * Aramco
+  * [Aramco](https://www.aramco.com/en)
   * Duties includes: Conducted large-scale LLM pretraining, optimized training efficiency through CUDA kernel fusion, asynchronous checkpointing, and distributed parallelism (ZeRO, DP, TP, PP).
   <!-- * Supervisor: [Salma Alsinan](https://www.linkedin.com/in/salma-alsinan/overlay/about-this-profile/) -->
 
