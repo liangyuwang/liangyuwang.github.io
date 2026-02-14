@@ -1,12 +1,67 @@
 ---
-layout: archive
+layout: single
 title: "Projects"
 permalink: /projects/
 author_profile: true
 ---
 
-<div class="grid__wrapper">
-  {% for post in site.projects %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-</div> 
+<div class="projects-page">
+  <p class="projects-intro">
+    A curated list of my open-source research projects on efficient LLM training and inference systems.
+  </p>
+
+  <div class="proj-grid">
+    <div class="proj-card">
+      <h3 class="proj-title">ZO2: Full-Parameter Fine-Tuning 175B LLMs with 18GB GPU Memory</h3>
+      <p class="proj-desc">
+        Zeroth-order offloading framework that enables memory-efficient full-parameter fine-tuning for extremely large LLMs.
+      </p>
+      <p class="proj-links">
+        <a href="https://arxiv.org/abs/2503.12668">Paper</a>
+        <span>·</span>
+        <a href="https://github.com/liangyuwang/zo2">Code</a>
+      </p>
+    </div>
+
+    <div class="proj-card">
+      <h3 class="proj-title">Train Large Model from Scratch</h3>
+      <p class="proj-desc">
+        A minimal yet practical pre-training stack for GPT-style models with modular architecture and distributed training utilities.
+      </p>
+      <p class="proj-links">
+        <a href="https://github.com/liangyuwang/train-large-model-from-scratch">Code</a>
+      </p>
+    </div>
+  </div>
+
+  <h3 class="projects-subtitle">Tiny-LLM-Libs</h3>
+  <p class="projects-intro">
+    Educational mini-replicas of major distributed training stacks, designed for reading core mechanisms quickly.
+  </p>
+
+  <div class="tiny-mini-grid">
+    <div class="tiny-mini-card">
+      <div class="tiny-mini-head">
+        <strong>FSDP → Tiny-FSDP</strong>
+      </div>
+      <p>DDP/ZeRO-3/FSDP side-by-side implementations for communication and memory trade-off learning.</p>
+      <p class="proj-links"><a href="https://github.com/liangyuwang/Tiny-FSDP">Repo</a></p>
+    </div>
+
+    <div class="tiny-mini-card">
+      <div class="tiny-mini-head">
+        <strong>DeepSpeed → Tiny-DeepSpeed</strong>
+      </div>
+      <p>Minimal DDP + ZeRO1/2/3 training stack with meta initialization and overlap primitives.</p>
+      <p class="proj-links"><a href="https://github.com/liangyuwang/Tiny-DeepSpeed">Repo</a></p>
+    </div>
+
+    <div class="tiny-mini-card">
+      <div class="tiny-mini-head">
+        <strong>Megatron-LM → Tiny-Megatron</strong>
+      </div>
+      <p>Educational TP/DP/2D hybrid pipeline with custom modules and runtime auto-tuning.</p>
+      <p class="proj-links"><a href="https://github.com/liangyuwang/Tiny-Megatron">Repo</a></p>
+    </div>
+  </div>
+</div>
