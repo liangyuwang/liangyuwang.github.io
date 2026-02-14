@@ -459,7 +459,7 @@ li {
   border-radius: 12px;
   background: linear-gradient(180deg, #ffffff 0%, #fbfcff 100%);
   padding: 0.78rem 0.88rem 0.88rem;
-  box-shadow: 0 6px 16px rgba(26, 49, 89, 0.06);
+  box-shadow: 0 8px 20px rgba(24, 46, 84, 0.11);
 }
 
 .tiny-suite-card .projects-subtitle {
@@ -483,7 +483,7 @@ li {
   border-radius: 12px;
   background: linear-gradient(180deg, #ffffff 0%, #fbfcff 100%);
   padding: 0.78rem 0.88rem;
-  box-shadow: 0 6px 16px rgba(26, 49, 89, 0.06);
+  box-shadow: 0 8px 20px rgba(24, 46, 84, 0.11);
 }
 
 .proj-title {
