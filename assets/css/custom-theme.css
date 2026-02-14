@@ -251,8 +251,7 @@ li {
   background: rgba(62, 117, 214, 0.07);
 }
 
-.tiny-compare-table td:first-child,
-.tiny-compare-table td:nth-child(2) {
+.tiny-compare-table td:first-child {
   white-space: nowrap;
 }
 
@@ -261,14 +260,23 @@ li {
   font-weight: 600;
 }
 
+.tiny-compare-table td:nth-child(2) {
+  white-space: normal;
+}
+
+.tiny-compare-table td:nth-child(2) a {
+  overflow-wrap: anywhere;
+}
+
 .tiny-compare-table tbody tr:last-child td {
   border-bottom: 0;
 }
 
 .tiny-compare-table td .github-stars {
-  margin-left: 0.42rem;
-  white-space: nowrap;
+  margin-left: 0.38rem;
+  white-space: normal;
   vertical-align: middle;
+  display: inline-block;
 }
 
 .tiny-compare-table td .github-stars img {
