@@ -58,28 +58,28 @@ My research interests include optimizing distributed training and inference of L
     </thead>
     <tbody>
       <tr>
-        <td><a href="https://github.com/pytorch/pytorch">FSDP</a></td>
-        <td>
+        <td data-label="Original Stack"><a href="https://github.com/pytorch/pytorch">FSDP</a></td>
+        <td data-label="Tiny Replica">
           <a href="https://github.com/liangyuwang/Tiny-FSDP">Tiny-FSDP</a>
           <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-FSDP"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-FSDP?style=social" alt="GitHub stars"></a></span>
         </td>
-        <td>Side-by-side implementations of DDP, ZeRO-3, and FSDP, including their distinct communication patterns and memory trade-offs.</td>
+        <td data-label="Description">Side-by-side implementations of DDP, ZeRO-3, and FSDP, including their distinct communication patterns and memory trade-offs.</td>
       </tr>
       <tr>
-        <td><a href="https://github.com/microsoft/DeepSpeed">DeepSpeed</a></td>
-        <td>
+        <td data-label="Original Stack"><a href="https://github.com/microsoft/DeepSpeed">DeepSpeed</a></td>
+        <td data-label="Tiny Replica">
           <a href="https://github.com/liangyuwang/Tiny-DeepSpeed">Tiny-DeepSpeed</a>
           <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-DeepSpeed"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-DeepSpeed?style=social" alt="GitHub stars"></a></span>
         </td>
-        <td>A minimal DeepSpeed-style training stack with DDP + ZeRO-1/2/3, plus meta initialization, rank mapping, and compute-communication overlap.</td>
+        <td data-label="Description">A minimal DeepSpeed-style training stack with DDP + ZeRO-1/2/3, plus meta initialization, rank mapping, and compute-communication overlap.</td>
       </tr>
       <tr>
-        <td><a href="https://github.com/NVIDIA/Megatron-LM">Megatron-LM</a></td>
-        <td>
+        <td data-label="Original Stack"><a href="https://github.com/NVIDIA/Megatron-LM">Megatron-LM</a></td>
+        <td data-label="Tiny Replica">
           <a href="https://github.com/liangyuwang/Tiny-Megatron">Tiny-Megatron</a>
           <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-Megatron"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-Megatron?style=social" alt="GitHub stars"></a></span>
         </td>
-        <td>Educational TP, DP, and 2D TP+DP hybrid training with custom modules and a runtime auto-tuner for kernel selection.</td>
+        <td data-label="Description">Educational TP, DP, and 2D TP+DP hybrid training with custom modules and a runtime auto-tuner for kernel selection.</td>
       </tr>
     </tbody>
   </table>
