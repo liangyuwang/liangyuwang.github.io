@@ -58,7 +58,7 @@ My research interests include optimizing distributed training and inference of L
     </thead>
     <tbody>
       <tr>
-        <td><a href="https://github.com/pytorch/pytorch">PyTorch FSDP</a></td>
+        <td><a href="https://github.com/pytorch/pytorch">FSDP</a></td>
         <td>
           <a href="https://github.com/liangyuwang/Tiny-FSDP">Tiny-FSDP</a>
           <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-FSDP"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-FSDP?style=social" alt="GitHub stars"></a></span>
