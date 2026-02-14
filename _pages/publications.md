@@ -12,7 +12,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 ## 2026
 
 ### <em class="venue venue-preprint">Preprint</em> Canzona: A Unified, Asynchronous, and Load-Balanced Framework for Distributed Matrix-based Optimizers  
-**Liangyu Wang**, Siqi Zhang, Junjie Wang, Yiming Dong, Bo Zheng, Zihan Qiu, Shengkun Tang, Di Wang, Rui Men, and Dayiheng Liu  
+<strong>Liangyu Wang *</strong>, Siqi Zhang *, Junjie Wang, Yiming Dong, Bo Zheng, Zihan Qiu, Shengkun Tang, Di Wang, Rui Men, and Dayiheng Liu  
 [[paper](https://arxiv.org/pdf/2602.06079)]
 
 <details>
@@ -21,7 +21,7 @@ The scaling of Large Language Models (LLMs) drives interest in matrix-based opti
 </details>
 
 ### <em class="venue venue-conf">ICLR</em> Predicting LLM Output Length via Entropy-Guided Representations  
-Huanyi Xie, Yubin Chen, **Liangyu Wang**, Lijie Hu, and Di Wang  
+Huanyi Xie, Yubin Chen, <strong>Liangyu Wang</strong>, Lijie Hu, and Di Wang  
 [[paper](https://openreview.net/pdf?id=3loQDtveWI)]
 
 <details>
@@ -34,7 +34,7 @@ The long-tailed distribution of sequence lengths in LLM serving and reinforcemen
 ## 2025
 
 ### <em class="venue venue-preprint">Preprint</em> Attributing Data for Sharpness-Aware Minimization  
-Chenyang Ren, Yifan Jia, Huanyi Xie, Zhaobin Xu, Tianxing Wei, **Liangyu Wang**, Lijie Hu, and Di Wang  
+Chenyang Ren, Yifan Jia, Huanyi Xie, Zhaobin Xu, Tianxing Wei, <strong>Liangyu Wang</strong>, Lijie Hu, and Di Wang  
 [[paper](https://arxiv.org/pdf/2507.04059)]
 
 <details>
@@ -43,7 +43,7 @@ Sharpness-aware Minimization (SAM) improves generalization in large-scale model 
 </details>
 
 ### <em class="venue venue-preprint">Preprint</em> DistZO2: High-Throughput and Memory-Efficient Zeroth-Order Fine-tuning LLMs with Distributed Parallel Computing  
-**Liangyu Wang**, Huanyi Xie, and Di Wang  
+<strong>Liangyu Wang</strong>, Huanyi Xie, and Di Wang  
 [[paper](https://arxiv.org/pdf/2507.03211)] [[code](https://github.com/liangyuwang/zo2)]
 
 <details>
@@ -52,7 +52,7 @@ Fine-tuning large language models (LLMs) remains resource-intensive due to their
 </details>
 
 ### <em class="venue venue-conf">NeurIPS</em> FlashDP: Private Training Large Language Models with Efficient DP-SGD  
-**Liangyu Wang**, Junxiao Wang, Jie Ren, Zihang Xiang, David E. Keyes, and Di Wang  
+<strong>Liangyu Wang</strong>, Junxiao Wang, Jie Ren, Zihang Xiang, David E. Keyes, and Di Wang  
 [[paper](https://openreview.net/pdf?id=b6SWqFEOSF)] [[code](https://github.com/kaustpradalab/flashdp)]
 
 <details>
@@ -61,7 +61,7 @@ As large language models (LLMs) increasingly underpin technological advancements
 </details>
 
 ### <em class="venue venue-preprint">Preprint</em> Infinite-Sampling: Efficient and Stable Grouped RL Training for Large Language Models  
-**Liangyu Wang**, Huanyi Xie, Xinhai Wang, Tianjin Huang, Mengdi Li, and Di Wang  
+<strong>Liangyu Wang</strong>, Huanyi Xie, Xinhai Wang, Tianjin Huang, Mengdi Li, and Di Wang  
 [[paper](https://arxiv.org/pdf/2506.22950)]
 
 <details>
@@ -70,7 +70,7 @@ Group-based reinforcement learning algorithms such as Group Reward Policy Optimi
 </details>
 
 ### <em class="venue venue-conf">COLM</em> ZO2: Scalable Zeroth-Order Fine-Tuning for Extremely Large Language Models with Limited GPU Memory  
-**Liangyu Wang**, Jie Ren, Hang Xu, Junxiao Wang, Huanyi Xie, David E. Keyes, and Di Wang  
+<strong>Liangyu Wang</strong>, Jie Ren, Hang Xu, Junxiao Wang, Huanyi Xie, David E. Keyes, and Di Wang  
 [[paper](https://openreview.net/pdf?id=s0p9xpORgP)] [[code](https://github.com/liangyuwang/zo2)]
 
 <details>
@@ -79,7 +79,7 @@ Fine-tuning large pre-trained LLMs generally demands extensive GPU memory. Tradi
 </details>
 
 ### <em class="venue venue-journal">IEEE TASE</em> V2-SfMLearner: Learning Monocular Depth and Ego-motion for Multimodal Wireless Capsule Endoscopy  
-Long Bai, Beilei Cui, **Liangyu Wang**, Yanheng Li, Shilong Yao, Sishen Yuan, Yanan Wu, Yang Zhang, Max Q.-H. Meng, Zhen Li, Weiping Ding, and Hongliang Ren  
+Long Bai, Beilei Cui, <strong>Liangyu Wang</strong>, Yanheng Li, Shilong Yao, Sishen Yuan, Yanan Wu, Yang Zhang, Max Q.-H. Meng, Zhen Li, Weiping Ding, and Hongliang Ren  
 [[paper](https://doi.org/10.1109/TASE.2024.3516968)]
 
 <details>
@@ -92,7 +92,7 @@ Deep learning can predict depth maps and capsule ego-motion from capsule endosco
 ## 2024
 
 ### <em class="venue venue-workshop">MobiSys Workshop</em> WiP: Towards Light Adaptation of Large Language Models For Personal Hardware  
-**Liangyu Wang**, Junxiao Wang, and Di Wang  
+<strong>Liangyu Wang</strong>, Junxiao Wang, and Di Wang  
 [[paper](https://dl.acm.org/doi/pdf/10.1145/3662006.3662065)]
 
 <details>
@@ -105,7 +105,7 @@ The large language models (LLMs) that everyone is using are not deployed locally
 ## 2022
 
 ### <em class="venue venue-journal">Electronics</em> Transformer-Based Disease Identification for Small-Scale Imbalanced Capsule Endoscopy Dataset  
-Long Bai, **Liangyu Wang**, Tong Chen, Yanheng Zhao, and Hongliang Ren  
+Long Bai, <strong>Liangyu Wang</strong>, Tong Chen, Yanheng Zhao, and Hongliang Ren  
 [[paper](https://www.mdpi.com/2079-9292/11/17/2747)]
 
 <details>

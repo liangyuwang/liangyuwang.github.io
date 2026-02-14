@@ -97,7 +97,7 @@ My research interests include optimizing distributed training and inference of L
 
 <div class="publication-item">
 <strong><em class="venue venue-preprint">Preprint 2026</em> Canzona: A Unified, Asynchronous, and Load-Balanced Framework for Distributed Matrix-based Optimizers</strong><br>
-<strong>Liangyu Wang</strong>, Siqi Zhang, Junjie Wang, Yiming Dong, Bo Zheng, Zihan Qiu, Shengkun Tang, Di Wang, Rui Men, and Dayiheng Liu<br>
+<strong>Liangyu Wang *</strong>, Siqi Zhang *, Junjie Wang, Yiming Dong, Bo Zheng, Zihan Qiu, Shengkun Tang, Di Wang, Rui Men, and Dayiheng Liu<br>
 <a href="https://arxiv.org/pdf/2602.06079">Paper</a>
 </div>
 
