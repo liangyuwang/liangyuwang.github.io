@@ -26,6 +26,7 @@ My research interests include optimizing distributed training and inference of L
 <div class="about-section news-section">
 <h2 class="section-title">🔥 News</h2>
 <ul>
+<li>02/2026: One paper is accepted by <a href="https://iclr.cc/">ICLR 2026</a>.</li>
 <li>02/2026: Released Canzona (<a href="https://arxiv.org/pdf/2602.06079">Arxiv</a>).</li>
 <li>09/2025: FlashDP is accepted by <a href="https://neurips.cc/">NeurIPS 2025</a>.</li>
 <li>07/2025: ZO2 is accepted by <a href="https://colmweb.org/index.html">COLM 2025</a>.</li>
