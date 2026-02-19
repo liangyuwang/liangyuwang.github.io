@@ -40,7 +40,7 @@ My research interests include optimizing distributed training and inference of L
 <h2 class="section-title">☃️ Projects</h2>
 
 <div class="project-item">
-<div class="project-title"><strong>ZO2 (Zeroth-Order Offloading): Full Parameter Fine-Tuning 175B LLMs with 18GB GPU Memory</strong> <span class="github-stars"><a href="https://github.com/liangyuwang/zo2"><img src="https://img.shields.io/github/stars/liangyuwang/zo2?style=social" alt="GitHub stars"></a></span></div>
+<div class="project-title"><strong>ZO2 (Zeroth-Order Offloading): Full Parameter Fine-Tuning 175B LLMs with 18GB GPU Memory</strong> <span class="github-stars"><a href="https://github.com/liangyuwang/zo2"><img src="https://img.shields.io/github/stars/liangyuwang/zo2?style=flat&logo=github&label=stars" alt="GitHub stars"></a></span></div>
 <div class="project-description">A framework that enables fine-tuning of extremely large language models (like OPT-175B) on limited GPU memory through zeroth-order optimization and CPU-GPU offloading.</div>
 </div>
 
@@ -62,7 +62,7 @@ My research interests include optimizing distributed training and inference of L
         <td data-label="Original Stack"><a href="https://github.com/pytorch/pytorch">FSDP</a></td>
         <td data-label="Tiny Replica">
           <a href="https://github.com/liangyuwang/Tiny-FSDP">Tiny-FSDP</a>
-          <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-FSDP"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-FSDP?style=social" alt="GitHub stars"></a></span>
+          <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-FSDP"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-FSDP?style=flat&logo=github&label=stars" alt="GitHub stars"></a></span>
         </td>
         <td data-label="Description">Side-by-side implementations of DDP, ZeRO-3, and FSDP, including their distinct communication patterns and memory trade-offs.</td>
       </tr>
@@ -70,7 +70,7 @@ My research interests include optimizing distributed training and inference of L
         <td data-label="Original Stack"><a href="https://github.com/microsoft/DeepSpeed">DeepSpeed</a></td>
         <td data-label="Tiny Replica">
           <a href="https://github.com/liangyuwang/Tiny-DeepSpeed">Tiny-DeepSpeed</a>
-          <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-DeepSpeed"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-DeepSpeed?style=social" alt="GitHub stars"></a></span>
+          <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-DeepSpeed"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-DeepSpeed?style=flat&logo=github&label=stars" alt="GitHub stars"></a></span>
         </td>
         <td data-label="Description">A minimal DeepSpeed-style training stack with DDP + ZeRO-1/2/3, plus meta initialization, rank mapping, and compute-communication overlap.</td>
       </tr>
@@ -78,7 +78,7 @@ My research interests include optimizing distributed training and inference of L
         <td data-label="Original Stack"><a href="https://github.com/NVIDIA/Megatron-LM">Megatron-LM</a></td>
         <td data-label="Tiny Replica">
           <a href="https://github.com/liangyuwang/Tiny-Megatron">Tiny-Megatron</a>
-          <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-Megatron"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-Megatron?style=social" alt="GitHub stars"></a></span>
+          <span class="github-stars"><a href="https://github.com/liangyuwang/Tiny-Megatron"><img src="https://img.shields.io/github/stars/liangyuwang/Tiny-Megatron?style=flat&logo=github&label=stars" alt="GitHub stars"></a></span>
         </td>
         <td data-label="Description">Educational TP, DP, and 2D TP+DP hybrid training with custom modules and a runtime auto-tuner for kernel selection.</td>
       </tr>
@@ -88,7 +88,7 @@ My research interests include optimizing distributed training and inference of L
 </div>
 
 <div class="project-item">
-<div class="project-title"><strong>Train Large Model from Scratch: A Minimal Pre-Training Stack for GPT-Style Language Models</strong> <span class="github-stars"><a href="https://github.com/liangyuwang/train-large-model-from-scratch"><img src="https://img.shields.io/github/stars/liangyuwang/train-large-model-from-scratch?style=social" alt="GitHub stars"></a></span></div>
+<div class="project-title"><strong>Train Large Model from Scratch: A Minimal Pre-Training Stack for GPT-Style Language Models</strong> <span class="github-stars"><a href="https://github.com/liangyuwang/train-large-model-from-scratch"><img src="https://img.shields.io/github/stars/liangyuwang/train-large-model-from-scratch?style=flat&logo=github&label=stars" alt="GitHub stars"></a></span></div>
 <div class="project-description">A hackable and developer-friendly framework featuring modular GPT architecture with FA/GQA/MoE support, distributed training (ZeRO-1, Sequence-Expert Joint Parallelism), mixed precision training, and comprehensive profiling utilities for efficient large model pre-training.</div>
 </div>
 </div>
