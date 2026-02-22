@@ -88,7 +88,7 @@ My research interests include optimizing distributed training and inference of L
 </div>
 
 <div class="project-item">
-<div class="project-title"><strong>Train Large Model from Scratch: A Minimal Pre-Training Stack for GPT-Style Language Models</strong> <span class="github-stars"><a href="https://github.com/liangyuwang/train-large-model-from-scratch"><img src="https://img.shields.io/github/stars/liangyuwang/train-large-model-from-scratch.svg?style=social" alt="GitHub stars"></a></span></div>
+<div class="project-title"><strong>Tinytron: A Minimal Pre-Training Stack for GPT-Style Language Models</strong> <span class="github-stars"><a href="https://github.com/liangyuwang/Tinytron"><img src="https://img.shields.io/github/stars/liangyuwang/Tinytron.svg?style=social" alt="GitHub stars"></a></span></div>
 <div class="project-description">A hackable and developer-friendly framework featuring modular GPT architecture with FA/GQA/MoE support, distributed training (ZeRO-1, Sequence-Expert Joint Parallelism), mixed precision training, and comprehensive profiling utilities for efficient large model pre-training.</div>
 </div>
 </div>
