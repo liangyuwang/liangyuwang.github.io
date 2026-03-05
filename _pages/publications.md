@@ -33,6 +33,15 @@ The long-tailed distribution of sequence lengths in LLM serving and reinforcemen
 
 ## 2025
 
+### <em class="venue venue-preprint">Preprint</em> PAHQ: Accelerating Automated Circuit Discovery through Mixed-Precision Inference Optimization  
+Xinhai Wang, Shu Yang, <strong>Liangyu Wang</strong>, Lin Zhang, Huanyi Xie, Lijie Hu, and Di Wang  
+[[paper](https://arxiv.org/pdf/2510.23264)] [[code](https://github.com/626619403/PAHQ)]
+
+<details>
+<summary><strong>Abstract</strong></summary>
+Circuit discovery, which involves identifying sparse and task-relevant subnetworks in pre-trained language models, is a cornerstone of mechanistic interpretability. Automated Circuit Discovery (ACDC) has emerged as a pivotal methodology in circuit discovery, but its application to large language models is severely limited by computational inefficiency and prohibitively high memory requirements. Although several accelerated approaches have been proposed, they primarily rely on linear approximations to ACDC, which significantly compromises analytical faithfulness. Our proposed method for accelerating automated circuit discovery, Per Attention Head Quantization (PAHQ), takes a fundamentally different approach by optimizing the efficiency of each individual patching operation. PAHQ leverages a fundamental alignment between activation patching and mixed-precision quantization (MPQ): interpretability analysis through patching essentially performs targeted ablation studies. Therefore, we can maintain high precision exclusively for investigated components while safely reducing precision elsewhere in the network. PAHQ-accelerated ACDC reduces runtime by up to 80% and memory consumption by up to 30% compared to unaccelerated ACDC while maintaining faithfulness. Importantly, our method readily integrates with existing edge-based circuit discovery techniques by modifying the attention computation mechanism. This training-free approach provides a practical and novel pathway for accelerating mechanistic interpretability methods.
+</details>
+
 ### <em class="venue venue-preprint">Preprint</em> Attributing Data for Sharpness-Aware Minimization  
 Chenyang Ren, Yifan Jia, Huanyi Xie, Zhaobin Xu, Tianxing Wei, <strong>Liangyu Wang</strong>, Lijie Hu, and Di Wang  
 [[paper](https://arxiv.org/pdf/2507.04059)]
