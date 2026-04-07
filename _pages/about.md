@@ -121,7 +121,7 @@ My research interests include optimizing distributed training and inference of L
 </div>
 
 <div class="publication-item">
-<strong><em class="venue venue-preprint">Preprint 2025</em> DistZO2: High-Throughput and Memory-Efficient Zeroth-Order Fine-tuning LLMs with Distributed Parallel Computing</strong><br>
+<strong><em class="venue venue-conf">ACL 2026 findings</em> DistZO2: High-Throughput and Memory-Efficient Zeroth-Order Fine-tuning LLMs with Distributed Parallel Computing</strong><br>
 <strong>Liangyu Wang</strong>, Huanyi Xie, and Di Wang<br>
 <a href="https://arxiv.org/pdf/2507.03211">Paper</a> | <a href="https://github.com/liangyuwang/zo2">Code</a>
 </div>
