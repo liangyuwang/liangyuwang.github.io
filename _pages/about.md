@@ -27,7 +27,7 @@ My research interests include optimizing distributed training and inference of L
 <h2 class="section-title">🔥 News</h2>
 <ul>
 <li>02/2026: One paper is accepted by <a href="https://iclr.cc/">ICLR 2026</a>.</li>
-<li>02/2026: Released Canzona (<a href="https://arxiv.org/pdf/2602.06079">Arxiv</a>).</li>
+<li>02/2026: Released Canzona (<a href="https://arxiv.org/pdf/2602.06079">Arxiv</a>, <a href="https://github.com/liangyuwang/Megatron-Canzona">code</a>).</li>
 <li>09/2025: FlashDP is accepted by <a href="https://neurips.cc/">NeurIPS 2025</a>.</li>
 <li>07/2025: ZO2 is accepted by <a href="https://colmweb.org/index.html">COLM 2025</a>.</li>
 <li>07/2025: Released Infinite-Sampling (<a href="https://arxiv.org/pdf/2506.22950">Arxiv</a>).</li>
@@ -38,6 +38,11 @@ My research interests include optimizing distributed training and inference of L
 
 <div class="about-section projects-section">
 <h2 class="section-title">☃️ Projects</h2>
+
+<div class="project-item">
+<div class="project-title"><strong>Megatron-Canzona: Matrix-based Optimizers for Large-Scale Distributed Training</strong> <span class="github-stars"><a href="https://github.com/liangyuwang/Megatron-Canzona"><img src="https://img.shields.io/github/stars/liangyuwang/Megatron-Canzona.svg?style=social" alt="GitHub stars"></a></span></div>
+<div class="project-description">A Megatron-based implementation of Canzona that brings Muon and SOAP to multi-dimensional parallel training with load-balanced DP partitioning, asynchronous TP micro-group scheduling, parameter splitting, and extensible optimizer plugins.</div>
+</div>
 
 <div class="project-item">
 <div class="project-title"><strong>ZO2 (Zeroth-Order Offloading): Full Parameter Fine-Tuning 175B LLMs with 18GB GPU Memory</strong> <span class="github-stars"><a href="https://github.com/liangyuwang/zo2"><img src="https://img.shields.io/github/stars/liangyuwang/zo2.svg?style=social" alt="GitHub stars"></a></span></div>
@@ -99,7 +104,7 @@ My research interests include optimizing distributed training and inference of L
 <div class="publication-item">
 <strong><em class="venue venue-preprint">Preprint 2026</em> Canzona: A Unified, Asynchronous, and Load-Balanced Framework for Distributed Matrix-based Optimizers</strong><br>
 <strong>Liangyu Wang *</strong>, Siqi Zhang *, Junjie Wang, Yiming Dong, Bo Zheng, Zihan Qiu, Shengkun Tang, Di Wang, Rui Men, and Dayiheng Liu<br>
-<a href="https://arxiv.org/pdf/2602.06079">Paper</a>
+<a href="https://arxiv.org/pdf/2602.06079">Paper</a> | <a href="https://github.com/liangyuwang/Megatron-Canzona">Code</a>
 </div>
 
 <div class="publication-item">
