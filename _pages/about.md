@@ -103,15 +103,15 @@ My research interests include optimizing distributed training and inference of L
 <h2 class="section-title">📝 Publications</h2>
 
 <div class="publication-item">
-<strong><em class="venue venue-preprint">Preprint 2026</em> SlimQwen: Exploring the Pruning and Distillation in Large MoE Model Pre-training</strong><br>
-Shengkun Tang *, Zekun Wang *, Bo Zheng *, <strong>Liangyu Wang</strong>, Rui Men, Siqi Zhang, Xiulong Yuan, Zihan Qiu, Zhiqiang Shen, and Dayiheng Liu<br>
-<a href="https://arxiv.org/pdf/2605.08738">Paper</a>
-</div>
-
-<div class="publication-item">
 <strong><em class="venue venue-preprint">Preprint 2026</em> Canzona: A Unified, Asynchronous, and Load-Balanced Framework for Distributed Matrix-based Optimizers</strong><br>
 <strong>Liangyu Wang *</strong>, Siqi Zhang *, Junjie Wang, Yiming Dong, Bo Zheng, Zihan Qiu, Shengkun Tang, Di Wang, Rui Men, and Dayiheng Liu<br>
 <a href="https://arxiv.org/pdf/2602.06079">Paper</a> | <a href="https://github.com/liangyuwang/Megatron-Canzona">Code</a>
+</div>
+
+<div class="publication-item">
+<strong><em class="venue venue-preprint">Preprint 2026</em> SlimQwen: Exploring the Pruning and Distillation in Large MoE Model Pre-training</strong><br>
+Shengkun Tang *, Zekun Wang *, Bo Zheng *, <strong>Liangyu Wang</strong>, Rui Men, Siqi Zhang, Xiulong Yuan, Zihan Qiu, Zhiqiang Shen, and Dayiheng Liu<br>
+<a href="https://arxiv.org/pdf/2605.08738">Paper</a>
 </div>
 
 <div class="publication-item">
