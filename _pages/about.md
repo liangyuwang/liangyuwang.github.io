@@ -26,6 +26,7 @@ My research interests include optimizing distributed training and inference of L
 <div class="about-section news-section">
 <h2 class="section-title">🔥 News</h2>
 <ul>
+<li>05/2026: Released SlimQwen (<a href="https://arxiv.org/pdf/2605.08738">Arxiv</a>).</li>
 <li>02/2026: One paper is accepted by <a href="https://iclr.cc/">ICLR 2026</a>.</li>
 <li>02/2026: Released Canzona (<a href="https://arxiv.org/pdf/2602.06079">Arxiv</a>, <a href="https://github.com/liangyuwang/Megatron-Canzona">code</a>).</li>
 <li>09/2025: FlashDP is accepted by <a href="https://neurips.cc/">NeurIPS 2025</a>.</li>
@@ -100,6 +101,12 @@ My research interests include optimizing distributed training and inference of L
 
 <div class="about-section publications-section">
 <h2 class="section-title">📝 Publications</h2>
+
+<div class="publication-item">
+<strong><em class="venue venue-preprint">Preprint 2026</em> SlimQwen: Exploring the Pruning and Distillation in Large MoE Model Pre-training</strong><br>
+Shengkun Tang *, Zekun Wang *, Bo Zheng *, <strong>Liangyu Wang</strong>, Rui Men, Siqi Zhang, Xiulong Yuan, Zihan Qiu, Zhiqiang Shen, and Dayiheng Liu<br>
+<a href="https://arxiv.org/pdf/2605.08738">Paper</a>
+</div>
 
 <div class="publication-item">
 <strong><em class="venue venue-preprint">Preprint 2026</em> Canzona: A Unified, Asynchronous, and Load-Balanced Framework for Distributed Matrix-based Optimizers</strong><br>
