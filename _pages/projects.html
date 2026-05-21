@@ -10,19 +10,34 @@ author_profile: true
     A curated list of my open-source research projects on efficient LLM training and inference systems.
   </p>
 
-  <div class="proj-grid">
-    <div class="proj-card">
-      <h3 class="proj-title">
-        Canzona
-      </h3>
-      <p class="proj-desc">
-        Implementations of unified, asynchronous, and load-balanced matrix-based optimization for distributed training, bringing Muon/SOAP to Megatron and FSDP through full-matrix task assignment and gather-compute-scatter-update scheduling.
-      </p>
-      <p class="proj-links">
-        <a href="https://github.com/liangyuwang/Megatron-Canzona">Megatron-Canzona</a><span>|</span><a href="https://github.com/liangyuwang/FSDP-Canzona">FSDP-Canzona</a><span>|</span><a href="https://arxiv.org/abs/2602.06079">Paper</a>
-      </p>
-    </div>
+  <div class="tiny-suite-card">
+    <h3 class="projects-subtitle">Canzona</h3>
+    <p class="projects-intro">
+      Unified, asynchronous, and load-balanced matrix-based optimization for distributed training, with implementations for different sharding stacks.
+    </p>
 
+    <div class="tiny-mini-grid">
+      <div class="tiny-mini-card">
+        <div class="tiny-mini-head">
+          <strong>Megatron-Canzona</strong>
+          <span class="github-stars"><a href="https://github.com/liangyuwang/Megatron-Canzona"><img src="https://img.shields.io/github/stars/liangyuwang/Megatron-Canzona.svg?style=social" alt="Megatron-Canzona GitHub stars"></a></span>
+        </div>
+        <p>Megatron integration with load-balanced DP partitioning, async TP micro-group scheduling, parameter splitting, and optimizer plugin support.</p>
+        <p class="proj-links"><a href="https://github.com/liangyuwang/Megatron-Canzona">Code</a><span>|</span><a href="https://arxiv.org/abs/2602.06079">Paper</a></p>
+      </div>
+
+      <div class="tiny-mini-card">
+        <div class="tiny-mini-head">
+          <strong>FSDP-Canzona</strong>
+          <span class="github-stars"><a href="https://github.com/liangyuwang/FSDP-Canzona"><img src="https://img.shields.io/github/stars/liangyuwang/FSDP-Canzona.svg?style=social" alt="FSDP-Canzona GitHub stars"></a></span>
+        </div>
+        <p>FSDP-oriented executor for full-matrix optimizer tasks with logical host assignment, shard gather, full update compute, and update scatter.</p>
+        <p class="proj-links"><a href="https://github.com/liangyuwang/FSDP-Canzona">Code</a><span>|</span><a href="https://arxiv.org/abs/2602.06079">Paper</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="proj-grid">
     <div class="proj-card">
       <h3 class="proj-title">
         ZO2: Full-Parameter Fine-Tuning 175B LLMs with 18GB GPU Memory

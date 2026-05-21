@@ -42,7 +42,37 @@ My research interests include optimizing distributed training and inference of L
 
 <div class="project-item">
 <div class="project-title"><strong>Canzona: Matrix-based Optimizers for Large-Scale Distributed Training</strong></div>
-<div class="project-description">A family of implementations that make Muon and SOAP practical under distributed sharding by reconstructing full-matrix optimizer tasks, assigning logical host ranks, and pipelining gather, compute, scatter, and update. Implementations: <a href="https://github.com/liangyuwang/Megatron-Canzona">Megatron-Canzona</a> <span class="github-stars"><a href="https://github.com/liangyuwang/Megatron-Canzona"><img src="https://img.shields.io/github/stars/liangyuwang/Megatron-Canzona.svg?style=social" alt="Megatron-Canzona GitHub stars"></a></span>, <a href="https://github.com/liangyuwang/FSDP-Canzona">FSDP-Canzona</a> <span class="github-stars"><a href="https://github.com/liangyuwang/FSDP-Canzona"><img src="https://img.shields.io/github/stars/liangyuwang/FSDP-Canzona.svg?style=social" alt="FSDP-Canzona GitHub stars"></a></span>.</div>
+<div class="project-description">Implementations that make Muon and SOAP practical under distributed sharding by reconstructing full-matrix optimizer tasks, assigning logical host ranks, and pipelining gather, compute, scatter, and update.</div>
+
+<div class="tiny-compare-wrap">
+  <table class="tiny-compare-table">
+    <thead>
+      <tr>
+        <th>Training Stack</th>
+        <th>Canzona Implementation</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Training Stack"><a href="https://github.com/NVIDIA/Megatron-LM">Megatron-LM</a></td>
+        <td data-label="Canzona Implementation">
+          <a href="https://github.com/liangyuwang/Megatron-Canzona">Megatron-Canzona</a>
+          <span class="github-stars"><a href="https://github.com/liangyuwang/Megatron-Canzona"><img src="https://img.shields.io/github/stars/liangyuwang/Megatron-Canzona.svg?style=social" alt="Megatron-Canzona GitHub stars"></a></span>
+        </td>
+        <td data-label="Description">Megatron integration with load-balanced DP partitioning, asynchronous TP micro-group scheduling, parameter splitting, and extensible matrix optimizer plugins.</td>
+      </tr>
+      <tr>
+        <td data-label="Training Stack"><a href="https://pytorch.org/docs/stable/fsdp.html">PyTorch FSDP</a></td>
+        <td data-label="Canzona Implementation">
+          <a href="https://github.com/liangyuwang/FSDP-Canzona">FSDP-Canzona</a>
+          <span class="github-stars"><a href="https://github.com/liangyuwang/FSDP-Canzona"><img src="https://img.shields.io/github/stars/liangyuwang/FSDP-Canzona.svg?style=social" alt="FSDP-Canzona GitHub stars"></a></span>
+        </td>
+        <td data-label="Description">FSDP-oriented executor that assigns full-matrix optimizer tasks to host ranks, gathers gradient shards, computes full updates, and scatters local update shards back.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 </div>
 
 <div class="project-item">
