@@ -42,7 +42,7 @@ My research interests include optimizing distributed training and inference of L
 <h2 class="section-title">📝 Publications</h2>
 
 <div class="publication-item">
-<strong><em class="venue venue-preprint">Preprint 2026</em> On the Design of Qwen3.8-Next Architecture: Evaluation, Efficiency, and Training Stability</strong><br>
+<strong><em class="venue venue-tech-report">Tech Report 2026</em> On the Design of Qwen3.8-Next Architecture: Evaluation, Efficiency, and Training Stability</strong><br>
 Zihan Qiu, Zekun Wang, Xiao Li, Yanpeng Li, Yang Xu, Yixuan Wang, Huaqing Zhang, Rui Men, Bochao Mao, Chengruidong Zhang, Fan Zhou, Hao Luo, Haofeng Huang, Haoran Lian, Haoyan Huang, Hongqing Chen, Jianwei Zhang, Jing Xu, Junjie Wang, Langshi Chen, <strong>Liangyu Wang</strong>, Linlang Jiang, Man Yuan, Minmin Sun, Peng Jin, Siqi Zhang, Siyu Wang, Xingzhang Ren, Yakai Wang, Yi Zhang, Yiming Dong, Yizhong Cao, Yubo Ma, Yunfei Mao, Bo Zheng, and Dayiheng Liu<br>
 <a href="https://arxiv.org/pdf/2608.30320">Paper</a>
 </div>

@@ -322,6 +322,14 @@ h3 .venue-preprint {
   border: 1px solid #f4d1a5;
 }
 
+.page__content .venue-tech-report,
+.archive .venue-tech-report,
+h3 .venue-tech-report {
+  color: #374151 !important;
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+}
+
 .page__content .venue-conf,
 .archive .venue-conf,
 h3 .venue-conf {
