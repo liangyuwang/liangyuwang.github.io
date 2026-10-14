@@ -33,10 +33,61 @@ My research interests include optimizing distributed training and inference of L
 <li>02/2026: Released Canzona (<a href="https://arxiv.org/pdf/2602.06079">Arxiv</a>, <a href="https://github.com/liangyuwang/Megatron-Canzona">Megatron code</a>, <a href="https://github.com/liangyuwang/FSDP-Canzona">FSDP code</a>).</li>
 <li>09/2025: FlashDP is accepted by <a href="https://neurips.cc/">NeurIPS 2025</a>.</li>
 <li>07/2025: ZO2 is accepted by <a href="https://colmweb.org/index.html">COLM 2025</a>.</li>
-<li>07/2025: Released Infinite-Sampling (<a href="https://arxiv.org/pdf/2506.22950">Arxiv</a>).</li>
 <li>06/2025: Joined <a href="https://huggingface.co/Qwen">Alibaba Qwen Team</a> for LLM Pretraining.</li>
 <li>03/2025: Released ZO2 (<a href="https://arxiv.org/abs/2503.12668">Arxiv</a>, <a href="https://github.com/liangyuwang/zo2">code</a>).</li>
 </ul>
+</div>
+
+<div class="about-section publications-section">
+<h2 class="section-title">📝 Publications</h2>
+
+<div class="publication-item">
+<strong><em class="venue venue-preprint">Preprint 2026</em> On the Design of Qwen3.8-Next Architecture: Evaluation, Efficiency, and Training Stability</strong><br>
+Zihan Qiu, Zekun Wang, Xiao Li, Yanpeng Li, Yang Xu, Yixuan Wang, Huaqing Zhang, Rui Men, Bochao Mao, Chengruidong Zhang, Fan Zhou, Hao Luo, Haofeng Huang, Haoran Lian, Haoyan Huang, Hongqing Chen, Jianwei Zhang, Jing Xu, Junjie Wang, Langshi Chen, <strong>Liangyu Wang</strong>, Linlang Jiang, Man Yuan, Minmin Sun, Peng Jin, Siqi Zhang, Siyu Wang, Xingzhang Ren, Yakai Wang, Yi Zhang, Yiming Dong, Yizhong Cao, Yubo Ma, Yunfei Mao, Bo Zheng, and Dayiheng Liu<br>
+<a href="https://arxiv.org/pdf/2608.30320">Paper</a>
+</div>
+
+<div class="publication-item">
+<strong><em class="venue venue-preprint">Preprint 2026</em> Canzona: A Unified, Asynchronous, and Load-Balanced Framework for Distributed Matrix-based Optimizers</strong><br>
+<strong>Liangyu Wang *</strong>, Siqi Zhang *, Junjie Wang, Yiming Dong, Bo Zheng, Zihan Qiu, Shengkun Tang, Di Wang, Rui Men, and Dayiheng Liu<br>
+<a href="https://arxiv.org/pdf/2602.06079">Paper</a> | <a href="https://github.com/liangyuwang/Megatron-Canzona">Megatron Code</a> | <a href="https://github.com/liangyuwang/FSDP-Canzona">FSDP Code</a>
+</div>
+
+<div class="publication-item">
+<strong><em class="venue venue-preprint">Preprint 2026</em> History Replays Itself: Unleashing Long-Context Capability in Linear Attention</strong><br>
+Li Nanbo *, Firas Laakom *, Yilan Zhang, Piotr Piękos, Yimeng Chen, <strong>Liangyu Wang</strong>, Yifan Xu, Mateusz Ostaszewski, Dandan Guo, Wenyi Wang, Yanning Dai, Yuhui Wang, and Jürgen Schmidhuber<br>
+<a href="https://arxiv.org/pdf/2610.15715">Paper</a> | <a href="https://nanboli.github.io/notebank-page/">Project Page</a>
+</div>
+
+<div class="publication-item">
+<strong><em class="venue venue-preprint">Preprint 2026</em> SlimQwen: Exploring the Pruning and Distillation in Large MoE Model Pre-training</strong><br>
+Shengkun Tang *, Zekun Wang *, Bo Zheng *, <strong>Liangyu Wang</strong>, Rui Men, Siqi Zhang, Xiulong Yuan, Zihan Qiu, Zhiqiang Shen, and Dayiheng Liu<br>
+<a href="https://arxiv.org/pdf/2605.08738">Paper</a>
+</div>
+
+<div class="publication-item">
+<strong><em class="venue venue-conf">COLM 2025</em> ZO2: Scalable Zeroth-Order Fine-Tuning for Extremely Large Language Models with Limited GPU Memory</strong><br>
+<strong>Liangyu Wang</strong>, Jie Ren, Hang Xu, Junxiao Wang, Huanyi Xie, David E. Keyes, and Di Wang<br>
+<a href="https://arxiv.org/pdf/2503.12668">Paper</a> | <a href="https://github.com/liangyuwang/zo2">Code</a>
+</div>
+
+<div class="publication-item">
+<strong><em class="venue venue-conf">NeurIPS 2025</em> FlashDP: Memory-Efficient and High-Throughput DP-SGD Training for Large Language Models</strong><br>
+<strong>Liangyu Wang</strong>, Junxiao Wang, Jie Ren, Zihang Xiang, David E. Keyes, and Di Wang<br>
+<a href="https://arxiv.org/pdf/2507.01154">Paper</a> | <a href="https://github.com/kaustpradalab/flashdp">Code</a>
+</div>
+
+<div class="publication-item">
+<strong><em class="venue venue-preprint">Preprint 2025</em> Infinite-Sampling: Efficient and Stable Grouped RL Training for Large Language Models</strong><br>
+<strong>Liangyu Wang</strong>, Huanyi Xie, Xinhai Wang, Tianjin Huang, Mengdi Li, and Di Wang<br>
+<a href="https://arxiv.org/pdf/2506.22950">Paper</a>
+</div>
+
+<div class="publication-item">
+<strong><em class="venue venue-conf">ACL 2026 findings</em> DistZO2: High-Throughput and Memory-Efficient Zeroth-Order Fine-tuning LLMs with Distributed Parallel Computing</strong><br>
+<strong>Liangyu Wang</strong>, Huanyi Xie, and Di Wang<br>
+<a href="https://arxiv.org/pdf/2507.03211">Paper</a> | <a href="https://github.com/liangyuwang/zo2">Code</a>
+</div>
 </div>
 
 <div class="about-section projects-section">
@@ -128,58 +179,6 @@ My research interests include optimizing distributed training and inference of L
 <div class="project-item">
 <div class="project-title"><strong>Tinytron: A Minimal Pre-Training Stack for GPT-Style Language Models</strong> <span class="github-stars"><a href="https://github.com/liangyuwang/Tinytron"><img src="https://img.shields.io/github/stars/liangyuwang/Tinytron.svg?style=social" alt="GitHub stars"></a></span></div>
 <div class="project-description">A hackable and developer-friendly framework featuring modular GPT architecture with FA/GQA/MoE support, distributed training (ZeRO-1, Sequence-Expert Joint Parallelism), mixed precision training, and comprehensive profiling utilities for efficient large model pre-training.</div>
-</div>
-</div>
-
-<div class="about-section publications-section">
-<h2 class="section-title">📝 Publications</h2>
-
-<div class="publication-item">
-<strong><em class="venue venue-preprint">Preprint 2026</em> On the Design of Qwen3.8-Next Architecture: Evaluation, Efficiency, and Training Stability</strong><br>
-Zihan Qiu, Zekun Wang, Xiao Li, Yanpeng Li, Yang Xu, Yixuan Wang, Huaqing Zhang, Rui Men, Bochao Mao, Chengruidong Zhang, Fan Zhou, Hao Luo, Haofeng Huang, Haoran Lian, Haoyan Huang, Hongqing Chen, Jianwei Zhang, Jing Xu, Junjie Wang, Langshi Chen, <strong>Liangyu Wang</strong>, Linlang Jiang, Man Yuan, Minmin Sun, Peng Jin, Siqi Zhang, Siyu Wang, Xingzhang Ren, Yakai Wang, Yi Zhang, Yiming Dong, Yizhong Cao, Yubo Ma, Yunfei Mao, Bo Zheng, and Dayiheng Liu<br>
-<a href="https://arxiv.org/pdf/2608.30320">Paper</a>
-</div>
-
-<div class="publication-item">
-<strong><em class="venue venue-preprint">Preprint 2026</em> Canzona: A Unified, Asynchronous, and Load-Balanced Framework for Distributed Matrix-based Optimizers</strong><br>
-<strong>Liangyu Wang *</strong>, Siqi Zhang *, Junjie Wang, Yiming Dong, Bo Zheng, Zihan Qiu, Shengkun Tang, Di Wang, Rui Men, and Dayiheng Liu<br>
-<a href="https://arxiv.org/pdf/2602.06079">Paper</a> | <a href="https://github.com/liangyuwang/Megatron-Canzona">Megatron Code</a> | <a href="https://github.com/liangyuwang/FSDP-Canzona">FSDP Code</a>
-</div>
-
-<div class="publication-item">
-<strong><em class="venue venue-preprint">Preprint 2026</em> History Replays Itself: Unleashing Long-Context Capability in Linear Attention</strong><br>
-Li Nanbo *, Firas Laakom *, Yilan Zhang, Piotr Piękos, Yimeng Chen, <strong>Liangyu Wang</strong>, Yifan Xu, Mateusz Ostaszewski, Dandan Guo, Wenyi Wang, Yanning Dai, Yuhui Wang, and Jürgen Schmidhuber<br>
-<a href="https://arxiv.org/pdf/2610.15715">Paper</a> | <a href="https://nanboli.github.io/notebank-page/">Project Page</a>
-</div>
-
-<div class="publication-item">
-<strong><em class="venue venue-preprint">Preprint 2026</em> SlimQwen: Exploring the Pruning and Distillation in Large MoE Model Pre-training</strong><br>
-Shengkun Tang *, Zekun Wang *, Bo Zheng *, <strong>Liangyu Wang</strong>, Rui Men, Siqi Zhang, Xiulong Yuan, Zihan Qiu, Zhiqiang Shen, and Dayiheng Liu<br>
-<a href="https://arxiv.org/pdf/2605.08738">Paper</a>
-</div>
-
-<div class="publication-item">
-<strong><em class="venue venue-conf">COLM 2025</em> ZO2: Scalable Zeroth-Order Fine-Tuning for Extremely Large Language Models with Limited GPU Memory</strong><br>
-<strong>Liangyu Wang</strong>, Jie Ren, Hang Xu, Junxiao Wang, Huanyi Xie, David E. Keyes, and Di Wang<br>
-<a href="https://arxiv.org/pdf/2503.12668">Paper</a> | <a href="https://github.com/liangyuwang/zo2">Code</a>
-</div>
-
-<div class="publication-item">
-<strong><em class="venue venue-conf">NeurIPS 2025</em> FlashDP: Memory-Efficient and High-Throughput DP-SGD Training for Large Language Models</strong><br>
-<strong>Liangyu Wang</strong>, Junxiao Wang, Jie Ren, Zihang Xiang, David E. Keyes, and Di Wang<br>
-<a href="https://arxiv.org/pdf/2507.01154">Paper</a> | <a href="https://github.com/kaustpradalab/flashdp">Code</a>
-</div>
-
-<div class="publication-item">
-<strong><em class="venue venue-preprint">Preprint 2025</em> Infinite-Sampling: Efficient and Stable Grouped RL Training for Large Language Models</strong><br>
-<strong>Liangyu Wang</strong>, Huanyi Xie, Xinhai Wang, Tianjin Huang, Mengdi Li, and Di Wang<br>
-<a href="https://arxiv.org/pdf/2506.22950">Paper</a>
-</div>
-
-<div class="publication-item">
-<strong><em class="venue venue-conf">ACL 2026 findings</em> DistZO2: High-Throughput and Memory-Efficient Zeroth-Order Fine-tuning LLMs with Distributed Parallel Computing</strong><br>
-<strong>Liangyu Wang</strong>, Huanyi Xie, and Di Wang<br>
-<a href="https://arxiv.org/pdf/2507.03211">Paper</a> | <a href="https://github.com/liangyuwang/zo2">Code</a>
 </div>
 </div>
 
