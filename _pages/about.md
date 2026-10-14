@@ -13,13 +13,13 @@ Before that, I completed my master degree at The Chinese University of Hong Kong
 
 Currently, I am conducting LLM pretraining research at the <a href="https://huggingface.co/Qwen">Alibaba Qwen Team</a>.
 
-My research interests include optimizing distributed training and inference of LLMs, improving multi-threaded and multi-stream scheduling, and enhancing privacy-preserving methods for LLMs. I have interned as a LLM Pretraining Engineer at <a href="https://www.aramco.com/">Aramco</a>, working with large-scale GPU clusters to boost training throughput and model scalability. Currently, I am working on:
+My research interests include Model4Model training and recursive self-improvement (RSI) for model training, distributed training and inference of LLMs, and multi-threaded and multi-stream scheduling. I have interned as a LLM Pretraining Engineer at <a href="https://www.aramco.com/">Aramco</a>, working with large-scale GPU clusters to boost training throughput and model scalability. Currently, I am working on:
 
 <ul>
+<li>Model4Model training / RSI for model training</li>
 <li>Efficient reinforcement learning (RL) for LLMs reasoning</li>
 <li>Distributed training and inference of LLMs</li>
 <li>Efficient algorithm and infrastructure design for LLMs</li>
-<li>Efficient privacy-preserving methods</li>
 </ul>
 </div>
 
