@@ -27,6 +27,7 @@ My research interests include optimizing distributed training and inference of L
 <h2 class="section-title">🔥 News</h2>
 <ul>
 <li>10/2026: Released NoteBank (<a href="https://arxiv.org/abs/2610.15715">Arxiv</a>, <a href="https://nanboli.github.io/notebank-page/">project page</a>).</li>
+<li>08/2026: Released the Qwen3.8-Next architecture report (<a href="https://arxiv.org/abs/2608.30320">Arxiv</a>).</li>
 <li>05/2026: Released SlimQwen (<a href="https://arxiv.org/pdf/2605.08738">Arxiv</a>).</li>
 <li>02/2026: One paper is accepted by <a href="https://iclr.cc/">ICLR 2026</a>.</li>
 <li>02/2026: Released Canzona (<a href="https://arxiv.org/pdf/2602.06079">Arxiv</a>, <a href="https://github.com/liangyuwang/Megatron-Canzona">Megatron code</a>, <a href="https://github.com/liangyuwang/FSDP-Canzona">FSDP code</a>).</li>
@@ -132,6 +133,12 @@ My research interests include optimizing distributed training and inference of L
 
 <div class="about-section publications-section">
 <h2 class="section-title">📝 Publications</h2>
+
+<div class="publication-item">
+<strong><em class="venue venue-preprint">Preprint 2026</em> On the Design of Qwen3.8-Next Architecture: Evaluation, Efficiency, and Training Stability</strong><br>
+Zihan Qiu, Zekun Wang, Xiao Li, Yanpeng Li, Yang Xu, Yixuan Wang, Huaqing Zhang, Rui Men, Bochao Mao, Chengruidong Zhang, Fan Zhou, Hao Luo, Haofeng Huang, Haoran Lian, Haoyan Huang, Hongqing Chen, Jianwei Zhang, Jing Xu, Junjie Wang, Langshi Chen, <strong>Liangyu Wang</strong>, Linlang Jiang, Man Yuan, Minmin Sun, Peng Jin, Siqi Zhang, Siyu Wang, Xingzhang Ren, Yakai Wang, Yi Zhang, Yiming Dong, Yizhong Cao, Yubo Ma, Yunfei Mao, Bo Zheng, and Dayiheng Liu<br>
+<a href="https://arxiv.org/pdf/2608.30320">Paper</a>
+</div>
 
 <div class="publication-item">
 <strong><em class="venue venue-preprint">Preprint 2026</em> Canzona: A Unified, Asynchronous, and Load-Balanced Framework for Distributed Matrix-based Optimizers</strong><br>
