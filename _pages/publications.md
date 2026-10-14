@@ -11,6 +11,15 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 
 ## 2026
 
+### <em class="venue venue-preprint">Preprint</em> History Replays Itself: Unleashing Long-Context Capability in Linear Attention
+Li Nanbo *, Firas Laakom *, Yilan Zhang, Piotr Piękos, Yimeng Chen, <strong>Liangyu Wang</strong>, Yifan Xu, Mateusz Ostaszewski, Dandan Guo, Wenyi Wang, Yanning Dai, Yuhui Wang, and Jürgen Schmidhuber<br>
+[[paper](https://arxiv.org/pdf/2610.15715)] [[project page](https://nanboli.github.io/notebank-page/)]
+
+<details>
+<summary><strong>Summary</strong></summary>
+NoteBank expands the long-context capabilities of pretrained linear attention models by separating recurrent computation from long-term evidence storage. It saves selected text in a sparse episodic memory, retrieves relevant notes using the backbone's own features, and replays them through the same model. The approach works without additional training or separate embedding, retrieval, or reader networks. At a context length of one million tokens, NoteBank improves Gated DeltaNet's average accuracy on six RULER retrieval tasks from 1.7% to 70.3%. Its analytical computation overhead is at most 0.025%, while persistent context storage is about 2,600 times smaller than a full multi-head attention KV cache with matched model dimensions and precision. Evaluations also show improvements on LongBench v1/v2 and MemoryAgentBench, including experiments with Mamba-2-8B and Qwen3.5-9B.
+</details>
+
 ### <em class="venue venue-preprint">Preprint</em> SlimQwen: Exploring the Pruning and Distillation in Large MoE Model Pre-training
 Shengkun Tang *, Zekun Wang *, Bo Zheng *, <strong>Liangyu Wang</strong>, Rui Men, Siqi Zhang, Xiulong Yuan, Zihan Qiu, Zhiqiang Shen, and Dayiheng Liu<br>
 [[paper](https://arxiv.org/pdf/2605.08738)]

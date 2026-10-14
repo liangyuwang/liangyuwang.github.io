@@ -26,6 +26,7 @@ My research interests include optimizing distributed training and inference of L
 <div class="about-section news-section">
 <h2 class="section-title">🔥 News</h2>
 <ul>
+<li>10/2026: Released NoteBank (<a href="https://arxiv.org/abs/2610.15715">Arxiv</a>, <a href="https://nanboli.github.io/notebank-page/">project page</a>).</li>
 <li>05/2026: Released SlimQwen (<a href="https://arxiv.org/pdf/2605.08738">Arxiv</a>).</li>
 <li>02/2026: One paper is accepted by <a href="https://iclr.cc/">ICLR 2026</a>.</li>
 <li>02/2026: Released Canzona (<a href="https://arxiv.org/pdf/2602.06079">Arxiv</a>, <a href="https://github.com/liangyuwang/Megatron-Canzona">Megatron code</a>, <a href="https://github.com/liangyuwang/FSDP-Canzona">FSDP code</a>).</li>
@@ -131,6 +132,12 @@ My research interests include optimizing distributed training and inference of L
 
 <div class="about-section publications-section">
 <h2 class="section-title">📝 Publications</h2>
+
+<div class="publication-item">
+<strong><em class="venue venue-preprint">Preprint 2026</em> History Replays Itself: Unleashing Long-Context Capability in Linear Attention</strong><br>
+Li Nanbo *, Firas Laakom *, Yilan Zhang, Piotr Piękos, Yimeng Chen, <strong>Liangyu Wang</strong>, Yifan Xu, Mateusz Ostaszewski, Dandan Guo, Wenyi Wang, Yanning Dai, Yuhui Wang, and Jürgen Schmidhuber<br>
+<a href="https://arxiv.org/pdf/2610.15715">Paper</a> | <a href="https://nanboli.github.io/notebank-page/">Project Page</a>
+</div>
 
 <div class="publication-item">
 <strong><em class="venue venue-preprint">Preprint 2026</em> Canzona: A Unified, Asynchronous, and Load-Balanced Framework for Distributed Matrix-based Optimizers</strong><br>
