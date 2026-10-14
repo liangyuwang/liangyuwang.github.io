@@ -134,15 +134,15 @@ My research interests include optimizing distributed training and inference of L
 <h2 class="section-title">📝 Publications</h2>
 
 <div class="publication-item">
-<strong><em class="venue venue-preprint">Preprint 2026</em> History Replays Itself: Unleashing Long-Context Capability in Linear Attention</strong><br>
-Li Nanbo *, Firas Laakom *, Yilan Zhang, Piotr Piękos, Yimeng Chen, <strong>Liangyu Wang</strong>, Yifan Xu, Mateusz Ostaszewski, Dandan Guo, Wenyi Wang, Yanning Dai, Yuhui Wang, and Jürgen Schmidhuber<br>
-<a href="https://arxiv.org/pdf/2610.15715">Paper</a> | <a href="https://nanboli.github.io/notebank-page/">Project Page</a>
-</div>
-
-<div class="publication-item">
 <strong><em class="venue venue-preprint">Preprint 2026</em> Canzona: A Unified, Asynchronous, and Load-Balanced Framework for Distributed Matrix-based Optimizers</strong><br>
 <strong>Liangyu Wang *</strong>, Siqi Zhang *, Junjie Wang, Yiming Dong, Bo Zheng, Zihan Qiu, Shengkun Tang, Di Wang, Rui Men, and Dayiheng Liu<br>
 <a href="https://arxiv.org/pdf/2602.06079">Paper</a> | <a href="https://github.com/liangyuwang/Megatron-Canzona">Megatron Code</a> | <a href="https://github.com/liangyuwang/FSDP-Canzona">FSDP Code</a>
+</div>
+
+<div class="publication-item">
+<strong><em class="venue venue-preprint">Preprint 2026</em> History Replays Itself: Unleashing Long-Context Capability in Linear Attention</strong><br>
+Li Nanbo *, Firas Laakom *, Yilan Zhang, Piotr Piękos, Yimeng Chen, <strong>Liangyu Wang</strong>, Yifan Xu, Mateusz Ostaszewski, Dandan Guo, Wenyi Wang, Yanning Dai, Yuhui Wang, and Jürgen Schmidhuber<br>
+<a href="https://arxiv.org/pdf/2610.15715">Paper</a> | <a href="https://nanboli.github.io/notebank-page/">Project Page</a>
 </div>
 
 <div class="publication-item">
