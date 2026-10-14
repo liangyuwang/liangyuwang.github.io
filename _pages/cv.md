@@ -11,15 +11,15 @@ redirect_from:
 Education
 =========
 
-* Ph.D in [King Abdullah University of Science and Technology](https://www.kaust.edu.sa/), 2026 (expected)
+* Ph.D. in Computer Science, [King Abdullah University of Science and Technology](https://www.kaust.edu.sa/), 2026
 * M.S. in [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/), 2022
 * B.S. in [Tianjin University](https://www.tju.edu.cn/english/), 2021
 
 Work experience
 ===============
 
-* July 2025 - Present: Research Intern
-  * [Alibaba Qwen Team](https://qwen.ai/home)
+* July 2025 - Present: [Alibaba Qwen Team](https://qwen.ai/home)
+  * Researcher, Pretraining Team; previously Research Intern.
   * Duties includes: Designed and implemented Canzona, a unified, asynchronous, and load-balanced framework to enable distributed matrix-based optimizers (e.g., Muon / Shampoo / SOAP) in large-scale LLM pretraining under Megatron with ZeRO-1 and Tensor Parallelism.
 
 * Summer 2024: LLM Pretraining Engineer (Intern)

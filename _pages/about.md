@@ -8,12 +8,11 @@ redirect_from:
 ---
 
 <div class="intro-text">
-I am Liangyu Wang, a Ph.D. candidate in Computer Science at King Abdullah University of Science and Technology (<a href="https://www.kaust.edu.sa/en/">KAUST</a>), specializing in efficient training and inference for large language models (LLMs) through distributed computing and advanced GPU programming. 
-Before that, I completed my master degree at The Chinese University of Hong Kong, focusing on multimodal machine learning.
+I am Liangyu Wang, a Researcher on the <a href="https://huggingface.co/Qwen">Alibaba Qwen</a> Pretraining Team, working on large language model (LLM) pretraining and efficient training systems.
 
-Currently, I am conducting LLM pretraining research at the <a href="https://huggingface.co/Qwen">Alibaba Qwen Team</a>.
+I received my Ph.D. in Computer Science from King Abdullah University of Science and Technology (<a href="https://www.kaust.edu.sa/en/">KAUST</a>). Before that, I earned my master's degree from The Chinese University of Hong Kong, where I focused on multimodal machine learning.
 
-My research interests include Model4Model training and recursive self-improvement (RSI) for model training, distributed training and inference of LLMs, and multi-threaded and multi-stream scheduling. I have interned as a LLM Pretraining Engineer at <a href="https://www.aramco.com/">Aramco</a>, working with large-scale GPU clusters to boost training throughput and model scalability. Currently, I am working on:
+My research interests include Model4Model training and recursive self-improvement (RSI) for model training, distributed training and inference of LLMs, and multi-threaded and multi-stream scheduling. I have interned as an LLM Pretraining Engineer at <a href="https://www.aramco.com/">Aramco</a>, working with large-scale GPU clusters to boost training throughput and model scalability. Currently, I am working on:
 
 <ul>
 <li>Model4Model training / RSI for model training</li>
