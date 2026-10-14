@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div class="intro-text">
-I am Liangyu Wang, a Researcher on the <a href="https://huggingface.co/Qwen">Alibaba Qwen</a> Pretraining Team, working on large language model (LLM) pretraining and efficient training systems.
+I am Liangyu Wang, a Researcher on the <a href="https://huggingface.co/Qwen">Alibaba Qwen</a> Team, working on large language model (LLM) pretraining and efficient training systems.
 
 I received my Ph.D. in Computer Science from King Abdullah University of Science and Technology (<a href="https://www.kaust.edu.sa/en/">KAUST</a>). Before that, I earned my master's degree from The Chinese University of Hong Kong, where I focused on multimodal machine learning.
 
