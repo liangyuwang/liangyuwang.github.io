@@ -18,8 +18,8 @@ Education
 Work experience
 ===============
 
-* July 2025 - Present: [Alibaba Qwen Team](https://qwen.ai/home)
-  * Researcher, Pretraining Team; previously Research Intern.
+* July 2025 - Present: [Qwen Team](https://qwen.ai/home)
+  * Researcher; previously Research Intern.
   * Duties includes: Designed and implemented Canzona, a unified, asynchronous, and load-balanced framework to enable distributed matrix-based optimizers (e.g., Muon / Shampoo / SOAP) in large-scale LLM pretraining under Megatron with ZeRO-1 and Tensor Parallelism.
 
 * Summer 2024: LLM Pretraining Engineer (Intern)
